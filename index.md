@@ -13,8 +13,8 @@ title: GLORB User Guide
     <div class="link-card">
         <h3>🚀 First Steps</h3>
         <ul>
-            <li><a href="setup">Set up your GLORB</a> - Connect your device to WiFi</li>
-            <li><a href="firmware">Update the firmware</a> - Get the latest features</li>
+            <li><a href="{{ site.baseurl }}/setup">Set up your GLORB</a> - Connect your device to WiFi</li>
+            <li><a href="{{ site.baseurl }}/firmware">Update the firmware</a> - Get the latest features</li>
             <li>Read the manual - Learn how to use your GLORB</li>
         </ul>
     </div>
@@ -33,7 +33,7 @@ title: GLORB User Guide
     <div class="link-card">
         <h3>🔧 Support</h3>
         <ul>
-            <li><a href="troubleshooting">Troubleshooting Guide</a></li>
+            <li><a href="{{ site.baseurl }}/troubleshooting">Troubleshooting Guide</a></li>
             <li><a href="https://discord.com/invite/hnQ5V2GNjh">Community Forum</a></li>
         </ul>
     </div>

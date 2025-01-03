@@ -1,6 +1,7 @@
 title: GLORB User Guide
 description: User resources for the GLORB smart lamp
 theme: jekyll-theme-cayman
+baseurl: "/GLORB-User-Guide"
 
 # Navigation
 header_pages:

@@ -4,7 +4,7 @@ title: Initial Setup
 ---
 
 <div class="back-nav">
-  <a href="/">← Back to Guide</a>
+  <a href="{{ site.baseurl }}/">← Back to Guide</a>
 </div>
 
 # Setting Up Your GLORB
@@ -73,6 +73,6 @@ title: Initial Setup
         <li>Try restarting your GLORB and/or the app</li>
         <li>Check that your WiFi password is correct</li>
         <li>Ensure your network is 2.4GHz (5GHz networks are not supported)</li>
-        <li>See our full <a href="troubleshooting#wifi-connection-issues">troubleshooting guide</a></li>
+        <li>See our full <a href="{{ site.baseurl }}/troubleshooting#wifi-connection-issues">troubleshooting guide</a></li>
     </ul>
 </div> 

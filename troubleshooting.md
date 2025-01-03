@@ -4,7 +4,7 @@ title: Troubleshooting
 ---
 
 <div class="back-nav">
-  <a href="/">← Back to Guide</a>
+  <a href="{{ site.baseurl }}/">← Back to Guide</a>
 </div>
 
 # Troubleshooting Guide
@@ -14,7 +14,7 @@ title: Troubleshooting
 ### Device Not Found in App
 - Power cycle the GLORB (unplug and plug back in) and restart the app
 - iOS: Make sure Bluetooth is enabled
-- Android: Verify GLORB is [connected to WiFi](setup#verifying-connection)
+- Android: Verify GLORB is [connected to WiFi]({{ site.baseurl }}/setup#verifying-connection))
 - Ensure you're within range of device
 
 ### No Access Point (AP) in WiFi List
@@ -26,7 +26,7 @@ title: Troubleshooting
 
 ### GLORB Flickers/Freezes/Crashes
 - Power cycle the GLORB and verify the power supply specs
-- [Update firmware](firmware) and check [Release Notes](releases) for known issues
+- [Update firmware]({{ site.baseurl }}/firmware) and check [Release Notes]({{ site.baseurl }}/releases) for known issues
 - Check for smart home integration interference
 
 ## Factory Reset Instructions
@@ -39,7 +39,7 @@ title: Troubleshooting
 ### Using GLORB Web Installer
 - Visit [GLORB Web Installer](https://snrgy-studios.github.io/GLORB-WebInstaller/) and follow the instructions
 
-**Note:** Factory reset deletes all presets and settings. You'll need to [backup and restore presets](#backup-and-restore-presets) and [reconnect to WiFi](setup).
+**Note:** Factory reset deletes all presets and settings. You'll need to [backup and restore presets](#backup-and-restore-presets) and [reconnect to WiFi]({{ site.baseurl }}/setup).
 
 ## Backup and Restore Presets
 
