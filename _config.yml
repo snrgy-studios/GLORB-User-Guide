@@ -1,0 +1,11 @@
+title: GLORB User Guide
+description: User resources for the GLORB smart lamp
+theme: jekyll-theme-cayman
+
+# Navigation
+header_pages:
+  - index.md
+  - setup.md
+  - firmware.md
+  - releases.md
+  - troubleshooting.md
