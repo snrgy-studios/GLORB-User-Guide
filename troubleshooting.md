@@ -14,7 +14,7 @@ title: Troubleshooting
 ### Device Not Found in App
 - Power cycle the GLORB (unplug and plug back in) and restart the app
 - iOS: Make sure Bluetooth is enabled
-- Android: Verify GLORB is [connected to WiFi]({{ site.baseurl }}/setup#verifying-connection))
+- Android: Verify GLORB is [connected to WiFi]({{ site.baseurl }}/setup#verifying-connection)
 - Ensure you're within range of device
 
 ### No Access Point (AP) in WiFi List
@@ -28,6 +28,14 @@ title: Troubleshooting
 - Power cycle the GLORB and verify the power supply specs
 - [Update firmware]({{ site.baseurl }}/firmware) and check [Release Notes]({{ site.baseurl }}/releases) for known issues
 - Check for smart home integration interference
+
+## Sync Function
+
+### Troubleshooting Sync
+- Sync only triggers when there's an actual state change on the device
+- Make sure all devices are connected to the same WiFi network
+- If multiple devices have sync enabled, they will all broadcast their state changes to each other. Consider designating one device as the master
+- If still not working, try toggling sync off and on again in the app and reboot all synced devices
 
 ## Factory Reset Instructions
 
@@ -47,13 +55,13 @@ title: Troubleshooting
 
 #### Backup Presets
 - Go to Config → Security & Updates
-- Click "Backup presets" to download presets.json
+- Click "Backup presets" to download a presets.json file with all your presets
 
 #### Restoring Presets
 - Go to Config → Security & Updates
-- Choose File → select presets.json
+- Choose File → select the presets.json file you downloaded
 - Upload and wait for completion
 
 ## Still Need Help?
 - Visit our [Community Forum](https://discord.com/invite/hnQ5V2GNjh)
-- Contact support@glorb.me
+- Email: [support@glorb.me](mailto:support@glorb.me)
