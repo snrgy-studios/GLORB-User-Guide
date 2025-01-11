@@ -34,6 +34,7 @@ title: GLORB User Guide
         <h3>🔧 Support</h3>
         <ul>
             <li><a href="{{ site.baseurl }}/troubleshooting">Troubleshooting Guide</a></li>
+            <li><a href="{{ site.baseurl }}/known-issues">Known Issues</a></li>
             <li><a href="https://discord.com/invite/hnQ5V2GNjh">Community Forum</a></li>
         </ul>
     </div>
