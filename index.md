@@ -15,7 +15,7 @@ title: GLORB User Guide
         <ul>
             <li><a href="{{ site.baseurl }}/setup">Set up your GLORB</a> - Connect your device to WiFi</li>
             <li><a href="{{ site.baseurl }}/firmware">Update the firmware</a> - Get the latest features</li>
-            <li>Read the manual - Learn how to use your GLORB</li>
+            <li><a href="assets/docs/manual.pdf">Read the manual</a> - Learn how to use your GLORB</li>
         </ul>
     </div>
 </div>
