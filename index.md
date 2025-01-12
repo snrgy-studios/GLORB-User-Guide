@@ -38,9 +38,16 @@ title: GLORB User Guide
             <li><a href="https://discord.com/invite/hnQ5V2GNjh">Community Forum</a></li>
         </ul>
     </div>
+
+    <div class="link-card">
+        <h3>📚 Feature Guides</h3>
+        <ul>
+            <li><a href="{{ site.baseurl }}/guides/dmx">DMX Control</a></li>
+        </ul>
+    </div>
     
     <div class="link-card">
-        <h3>📖 Resources</h3>
+        <h3>📖 External Resources</h3>
         <ul>
             <li><a href="https://kno.wled.ge/">WLED Documentation</a></li>
         </ul>
