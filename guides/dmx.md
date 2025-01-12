@@ -29,27 +29,13 @@ This guide will show you how to set up remote DMX control on your GLORB!
     - iOS: Find your IP in Settings → Info
     - Android: Find your IP on the device screen in WLED Native
 
-## GLORB LED Map
-
-The GLORB is configured as a 6x20 matrix with 120 addressable LEDs, running from left to right. However, only 80 of these LEDs are physically present - the rest are "virtual" LEDs used for mapping purposes.
-
-![GLORB LED Map]({{ site.baseurl }}/assets/images/ledmap.png)
-
-When using DMX control with Multiple RGB mode, keep in mind:
-- Each LED uses 3 channels (RGB)
-- The full matrix is 120 LEDs = 360 channels
-- LEDs are addressed sequentially from left to right
-- Not all LED positions are active (see map above)
-
-For optimal control, configure your DMX software to match this 6x20 matrix layout. The LED map above shows which positions are active (blue) and inactive (black).
-
 ## DMX Channel Mapping
 
 WLED supports several DMX modes that can be selected in the Sync Interfaces settings. Below is a summary of the [WLED DMX Documentation](https://kno.wled.ge/interfaces/e1.31-dmx/). 
 
 > **Important:** DO NOT disable WiFi sleep as recommended in the WLED documentation. Instead, follow the instructions above to disable the Bluetooth module.
 
-> **Note:** The GLORB animations have Effect Mode IDs starting from 187!
+> **Note:** The GLORB animations have Effect Mode IDs starting from 187
 
 ### Single RGB (3 channels)
 All LEDs are set to the same color:
@@ -87,3 +73,17 @@ This is the recommended mode for most DMX software like xLights and LedFx.
 ### WLED Documentation
 
 For more detailed information and further options, visit the [WLED DMX Documentation](https://kno.wled.ge/interfaces/e1.31-dmx/). 
+
+## GLORB LED Map
+
+The GLORB is configured as a 6x20 matrix with 120 addressable LEDs, running from left to right. However, only 80 of these LEDs are physically present - the rest are "virtual" LEDs used for mapping purposes.
+
+![GLORB LED Map]({{ site.baseurl }}/assets/images/ledmap.png)
+
+When using DMX control with Multiple RGB mode, keep in mind:
+- Each LED uses 3 channels (RGB)
+- The full matrix is 120 LEDs = 360 channels
+- LEDs are addressed sequentially from left to right
+- Not all LED positions are active (see map above)
+
+For optimal control, configure your DMX software to match this 6x20 matrix layout. The LED map above shows which positions are active (blue) and inactive (black).
