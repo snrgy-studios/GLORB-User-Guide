@@ -19,8 +19,10 @@ title: Troubleshooting
 
 ### No Access Point (AP) in WiFi List
 - Power cycle the GLORB and wait for a full boot
-- Toggle device WiFi to refresh networks
-- Check if not already connected (see [Verifying Connection](setup#verifying-connection))
+- Toggle device WiFi to refresh network list
+
+#### If AP Configuration Failed
+- Make sure you changed the network settings and not the access point settings (further down on the page). This would rename the AP to the network name (SSID) you entered.
 
 ## Performance Issues
 

@@ -33,7 +33,10 @@ title: Initial Setup
             <li>Password: <code>wled1234</code> (or <code>glorb1234</code>) if prompted</li>
         </ul>
         <li>Click "WiFi Settings" in the popup that appears. Go to <code>http://4.3.2.1</code> in a browser if not automatically redirected</li>
-        <li>Enter your network name and password</li>
+        <li>Enter your network name (SSID) and password under "Connect to existing network"</li>
+        <ul>
+            <li>NOTE: Leave everything else as is, including access point settings</li>
+        </ul>
         <li>Click "Save & Connect" and go back to your home network</li>
         <li>Wait for connection (see <a href="#verifying-connection">Verifying Connection</a>)</li>
     </ol>
