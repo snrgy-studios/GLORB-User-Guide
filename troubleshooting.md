@@ -11,7 +11,7 @@ title: Troubleshooting
 
 ## Connection Issues
 
-### Device Not Found in App
+### GLORB Not Found in App
 - Power cycle the GLORB (unplug and plug back in) and restart the app
 - iOS: Make sure Bluetooth is enabled
 - Android: Verify GLORB is [connected to WiFi]({{ site.baseurl }}/setup#verifying-connection)
@@ -23,6 +23,13 @@ title: Troubleshooting
 - Check if not already connected (see [Verifying Connection](setup#verifying-connection))
 
 ## Performance Issues
+
+### GLORB does not start
+- Try another power supply with the same specs (if you have one)
+- Check if WLED-AP/GLORB-AP appears in your WiFi networks list
+- If you shake the GLORB a bit, are there any audible sounds from inside?
+- Fully reset the firmware using this [web installer](https://snrgy-studios.github.io/GLORB-WebInstaller/). If the installer doesn't recognise the unit it is not booting at all. 
+- If still not working, contact support and we will replace your unit.
 
 ### GLORB Flickers/Freezes/Crashes
 - Power cycle the GLORB and verify the power supply specs
