@@ -34,17 +34,14 @@ See our [Release Notes]({{ site.baseurl }}/releases) for details on the latest i
 ## GLORB Firmware
 
 ### Animations
-- Swirl effect stops running
-    - Note: this animation is sound reactive by default, but a "regular" mode is added in the latest version
+- Swirl effect stops running in sound reactive mode
 
 ## Mobile App
 
 ### SNRGY App (iOS)
 - Issue with auto-updating device/control screen on state changes
-- Issue with setting boot preset
-- Issue with scheduling function
+- Issue with setting boot preset using WiFi
 - Warranty registration is not fully set up yet
-- Color picker lacks black (no) color selection
 - App doesn't display the correct firmware version
 
 ## Reporting Issues

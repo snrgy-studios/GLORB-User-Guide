@@ -36,13 +36,16 @@ title: Troubleshooting
 - [Update firmware]({{ site.baseurl }}/firmware) and check [Release Notes]({{ site.baseurl }}/releases) for known issues
 - Check for smart home integration interference
 
-## Sync Function
+## App Features
 
-### Troubleshooting Sync
+### Sync Feature
 - Sync only triggers when there's an actual state change on the device
 - Make sure all devices are connected to the same WiFi network
 - If multiple devices have sync enabled, they will all broadcast their state changes to each other. Consider designating one device as the master
 - If still not working, try toggling sync off and on again in the app and reboot all synced devices
+
+### Scheduling Feature
+- Scheduling requires WiFi and location services to work properly. Set your location in device settings to update the local time.
 
 ## Factory Reset Instructions
 
