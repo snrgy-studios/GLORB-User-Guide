@@ -44,6 +44,38 @@ title: Firmware Updates
     <h3>🌐 Using Web Installer</h3>
     <ol>
         <li>You need a Chrome/Edge browser and a USB-C port</li>
-        <li>Visit the <a href="https://snrgy-studios.github.io/GLORB-WebInstaller/">GLORB Web Installer</a> and follow the instructions</li>
+        <li>Visit the <a href="https://snrgy-studios.github.io/GLORB-WebInstaller/">GLORB Web Installer</a> and follow the instructions
+            <ul>
+                <li>See our <a href="#" onclick="openVideoModal(); return false;">video guide</a> for a step-by-step walkthrough</li>
+            </ul>
+        </li>
     </ol>
 </div>
+
+<div class="modal" id="videoModal">
+    <div class="modal-content">
+        <button class="close-modal" onclick="closeVideoModal()">×</button>
+        <video controls>
+            <source src="{{ site.baseurl }}/assets/videos/glorb-web-installer.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<script>
+function openVideoModal() {
+    document.getElementById('videoModal').classList.add('active');
+}
+
+function closeVideoModal() {
+    const modal = document.getElementById('videoModal');
+    const video = modal.querySelector('video');
+    video.pause();
+    modal.classList.remove('active');
+}
+
+// Close modal when clicking outside
+document.getElementById('videoModal').addEventListener('click', function(e) {
+    if (e.target === this) closeVideoModal();
+});
+</script>

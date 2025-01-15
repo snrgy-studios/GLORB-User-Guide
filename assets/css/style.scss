@@ -163,4 +163,49 @@ ol, ul {
 .site-footer {
     display: none;
 }
+
+// Modal styles
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    
+    &.active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .modal-content {
+        position: relative;
+        width: 95%;
+        max-width: 1000px;
+        
+        video {
+            width: 100%;
+            border-radius: 8px;
+        }
+    }
+    
+    .close-modal {
+        position: absolute;
+        top: -40px;
+        right: 0;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        padding: 8px;
+        
+        &:hover {
+            color: #999;
+        }
+    }
+}
  
