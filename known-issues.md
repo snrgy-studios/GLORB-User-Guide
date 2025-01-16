@@ -29,6 +29,34 @@ See our [Release Notes]({{ site.baseurl }}/releases) for details on the latest i
   - Check <a href="#" onclick="openVideoModal(); return false;">instruction video</a> on how to reattach panels
   - Inform us on our [support email](mailto:support@glorb.me)
 
+### Electronics Issues
+- Faulty power supply
+  - Could cause boot issues
+  - Try another power supply with the same specs (5V/3A)
+  - Contact us on our [support email](mailto:support@glorb.me)
+- Dead LEDs
+  - Can be caused by faulty LEDs or assembly error
+  - If you're adventurous and the LED is misaligned, you might be able to open the panel and push it back into place using this <a href="#" onclick="openVideoModal(); return false;">instruction video</a>
+  - Either way, contact us on our [support email](mailto:support@glorb.me)
+
+## GLORB Firmware
+
+### Animations
+- Swirl effect stops running in sound reactive mode
+
+## Mobile App
+
+### SNRGY App (iOS)
+- Warranty registration is not fully set up yet
+- App doesn't display the correct firmware version after update
+- Issue with auto-updating device/control screen on state changes
+- Issue with setting boot preset using WiFi
+
+## Reporting Issues
+Found a bug not listed here? Help us improve:
+- Join our [Discord Community](https://discord.com/invite/hnQ5V2GNjh)
+- Email [support@glorb.me](mailto:support@glorb.me)
+
 <div class="modal phone-video" id="videoModal">
     <div class="modal-content">
         <button class="close-modal" onclick="closeVideoModal()">×</button>
@@ -57,30 +85,3 @@ document.getElementById('videoModal').addEventListener('click', function(e) {
     if (e.target === this) closeVideoModal();
 });
 </script>
-
-### Electronics Issues
-- Faulty power supply
-  - Could cause boot issues
-  - Try another power supply with the same specs (5V/3A)
-  - Contact us on our [support email](mailto:support@glorb.me)
-- Dead LEDs
-  - Can be caused by faulty LEDs or assembly error
-  - Contact us on our [support email](mailto:support@glorb.me)
-
-## GLORB Firmware
-
-### Animations
-- Swirl effect stops running in sound reactive mode
-
-## Mobile App
-
-### SNRGY App (iOS)
-- Warranty registration is not fully set up yet
-- App doesn't display the correct firmware version after update
-- Issue with auto-updating device/control screen on state changes
-- Issue with setting boot preset using WiFi
-
-## Reporting Issues
-Found a bug not listed here? Help us improve:
-- Join our [Discord Community](https://discord.com/invite/hnQ5V2GNjh)
-- Email [support@glorb.me](mailto:support@glorb.me)
