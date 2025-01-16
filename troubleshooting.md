@@ -56,13 +56,13 @@ title: Troubleshooting
 
 ## Factory Reset Instructions
 
+### Using GLORB Web Installer
+- Visit the [Web Installer]({{ site.baseurl }}/firmware#web-installer) section (bottom of the page) and follow the instructions
+
 ### Using WLED Controls
 1. Go to Config → Security & Updates
 2. Check the "Factory Reset" box
 3. Click "Save" and wait for device restart
-
-### Using GLORB Web Installer
-- Visit the [Web Installer]({{ site.baseurl }}/firmware#web-installer) section (bottom of the page) and follow the instructions
 
 **Note:** Factory reset deletes all presets and settings. You'll need to [backup and restore presets](#backup-and-restore-presets) and [reconnect to WiFi]({{ site.baseurl }}/setup).
 
