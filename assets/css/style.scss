@@ -189,7 +189,13 @@ ol, ul {
         video {
             width: 100%;
             border-radius: 8px;
+            max-height: 90vh;
+            object-fit: contain;
         }
+    }
+    
+    &.phone-video .modal-content {
+        max-width: 500px;
     }
     
     .close-modal {
