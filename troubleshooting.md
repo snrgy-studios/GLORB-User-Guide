@@ -17,9 +17,15 @@ title: Troubleshooting
 - Android: Verify GLORB is [connected to WiFi]({{ site.baseurl }}/setup#verifying-connection)
 - Ensure you're within range of device
 
+### Connection Failed
+- Check that you're using the correct WiFi network and password
+- Check that you're connecting to a 2.4GHz WiFi network (5GHz networks are not supported)
+- Disable VPNs or other network interference
+
 ### No Access Point (AP) in WiFi List
 - Power cycle the GLORB and wait for a full boot
 - Toggle device WiFi to refresh network list
+- Verify that the GLORB is not already [connected to WiFi]({{ site.baseurl }}/setup)
 
 #### If AP Configuration Failed
 - Make sure you changed the network settings and not the access point settings (further down on the page). This would rename the AP to the network name (SSID) you entered.
@@ -27,11 +33,10 @@ title: Troubleshooting
 ## Performance Issues
 
 ### GLORB does not start
-- Try another power supply with the same specs (if you have one)
-- Check if WLED-AP/GLORB-AP appears in your WiFi networks list
-- If you shake the GLORB a bit, are there any audible sounds from inside?
-- Fully reset the firmware using this [web installer](https://snrgy-studios.github.io/GLORB-WebInstaller/). If the installer doesn't recognise the unit it is not booting at all. 
-- If still not working, contact support and we will replace your unit.
+- Could be a faulty power supply. See if you can try another one with the same specs (5V/3A)
+- Check if the app recognizes the unit or if the access point (AP) appears in your WiFi networks list. This means it's running but not outputting light. 
+- Fully reset the firmware using the [Web Installer]({{ site.baseurl }}/firmware#web-installer) (bottom of the page). If the web installer doesn't recognise the unit it is not booting at all. 
+- If still not working, contact [support](mailto:support@glorb.me) and we will replace your unit.
 
 ### GLORB Flickers/Freezes/Crashes
 - Power cycle the GLORB and verify the power supply specs
@@ -47,7 +52,7 @@ title: Troubleshooting
 - If still not working, try toggling sync off and on again in the app and reboot all synced devices
 
 ### Scheduling Feature
-- Scheduling requires WiFi and location services to work properly. Set your location in device settings to update the local time.
+- Scheduling requires WiFi and location services to work properly. Set your location in device settings to update the local time. You might need to restart the app after setting the location. 
 
 ## Factory Reset Instructions
 
@@ -57,7 +62,7 @@ title: Troubleshooting
 3. Click "Save" and wait for device restart
 
 ### Using GLORB Web Installer
-- Visit [GLORB Web Installer](https://snrgy-studios.github.io/GLORB-WebInstaller/) and follow the instructions
+- Visit the [Web Installer]({{ site.baseurl }}/firmware#web-installer) section (bottom of the page) and follow the instructions
 
 **Note:** Factory reset deletes all presets and settings. You'll need to [backup and restore presets](#backup-and-restore-presets) and [reconnect to WiFi]({{ site.baseurl }}/setup).
 
