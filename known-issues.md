@@ -37,13 +37,14 @@ Faulty power supply
 
 Dead LEDs
 - Can be caused by faulty LEDs or assembly error
-- For a DIY fix to misaligned LEDs, you might be able to open the panel and push it back into place using this <a href="#" onclick="openVideoModal(); return false;">panel video</a>
-- Either way, contact us on our [support email](mailto:support@glorb.me)
+- For a DIY fix to misaligned LEDs, you might be able to open the panel and push the LED back into place. See this <a href="#" onclick="openVideoModal(); return false;">panel video</a>
+- Contact us on our [support email](mailto:support@glorb.me)
 
 ## Firmware Issues
 
 ### Animations
-- Swirl effect stops running in sound reactive mode (sound reactive by default)
+- Swirl effect stops running sometimes in sound reactive mode
+  - Note! This animation is sound reactive by default. A "regular" mode is added in the [latest firmware release]({{ site.baseurl }}/firmware).
 
 ## Mobile App
 

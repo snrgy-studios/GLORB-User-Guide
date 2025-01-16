@@ -15,20 +15,17 @@ title: Troubleshooting
 - Power cycle the GLORB (unplug and plug back in) and restart the app
 - iOS: Make sure Bluetooth is enabled
 - Android: Verify GLORB is [connected to WiFi]({{ site.baseurl }}/setup#verifying-connection)
-- Ensure you're within range of device
-
-### Connection Failed
-- Check that you're using the correct WiFi network and password
-- Check that you're connecting to a 2.4GHz WiFi network (5GHz networks are not supported)
-- Disable VPNs or other network interference
 
 ### No Access Point (AP) in WiFi List
 - Power cycle the GLORB and wait for a full boot
 - Toggle device WiFi to refresh network list
 - Verify that the GLORB is not already [connected to WiFi]({{ site.baseurl }}/setup)
 
-#### If AP Configuration Failed
-- Make sure you changed the network settings and not the access point settings (further down on the page). This would rename the AP to the network name (SSID) you entered.
+### Connection Failed
+- Check that you're using the correct WiFi network and password
+- Check that you're connecting to a 2.4GHz WiFi network (5GHz networks are not supported)
+- Disable VPNs or other network interference
+- If AP configuration failed, make sure you changed the network settings and not the access point settings (further down on the page). This would rename the AP to the network name (SSID) you entered.
 
 ## Performance Issues
 

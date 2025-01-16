@@ -43,6 +43,7 @@ title: GLORB User Guide
         <h3>📚 Feature Guides</h3>
         <ul>
             <li><a href="{{ site.baseurl }}/guides/dmx">DMX Control</a></li>
+            <li>Smart Home Integrations (coming soon!)</li>
         </ul>
     </div>
     
