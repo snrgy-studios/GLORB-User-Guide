@@ -24,6 +24,7 @@ title: Initial Setup
 </div>
 
 ### Android Users
+ > **Note:** We offer the WLED interface as a temporary solution for Android users until we have released our own app. All the same features are available (except Bluetooth control), but the UI/UX is not as polished. We apologise for the added inconvenience with the setup process and will be releasing our own version very soon!
 <div class="platform-card">
     <h3>🤖 Using WLED</h3>
     <ol>

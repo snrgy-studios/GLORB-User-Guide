@@ -57,6 +57,11 @@ Dead LEDs
   - For now, go to WLED Controls and note the ID of the preset you want to use as boot preset. Then continue to Config → LED Preferences → "Apply preset [ID] at boot". 
   - Set your preset ID and save the page. If this generates an error, change Maximum Current from 0 to 5000 before saving. 
 
+### WLED Native (Android)
+- Currently using WLED Native app as a temporary solution, our dedicated Android app is under development and will be released soon!
+- Missing Bluetooth control.
+- Missing filter for GLORB-specific animations and palettes (available in the [latest firmware release]({{ site.baseurl }}/firmware)).
+
 ## Reporting Issues
 Found a bug not listed here? Help us improve:
 - Join our [Discord Community](https://discord.com/invite/hnQ5V2GNjh)
