@@ -42,8 +42,16 @@ title: GLORB User Guide
     <div class="link-card">
         <h3>📚 Feature Guides</h3>
         <ul>
-            <li><a href="{{ site.baseurl }}/guides/dmx">DMX Control</a></li>
-            <li>Smart Home Integrations (coming soon!)</li>
+            <li><a href="{{ site.baseurl }}/guides/dmx">DMX Control</a> - Use your GLORB with DMX</li>
+            <li><a href="{{ site.baseurl }}/guides/smart-home">Smart Home Integrations</a> - Home Assistant & other integrations</li>
+        </ul>
+    </div>
+    
+    <div class="link-card">
+        <h3>ℹ️ Information Pages</h3>
+        <ul>
+            <li><a href="{{ site.baseurl }}/info/wled-controls">WLED Controls</a> - Understanding the interface</li>
+            <li><a href="{{ site.baseurl }}/info/audio-reactive">Audio Reactivity</a> - Sound-reactive effects explained</li>
         </ul>
     </div>
     

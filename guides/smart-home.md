@@ -9,7 +9,9 @@ title: Smart Home Integration
 
 # Smart Home Integrations
 
-## Supported Platforms
+> **Note:** This guide is under development. We'll be adding detailed setup instructions for each platform soon.
+
+## Overview
 
 ## Home Assistant
 
