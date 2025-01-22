@@ -22,6 +22,9 @@ title: Firmware Updates
 </div>
 
 ## Android Users
+
+> **Important:** The GLORB uses base WLED version 0.14.4 with our custom modifications. While the WLED Native app might show version 0.15.0 as available, please **do not** update to this version. Only install firmware files released by us, as other versions may break GLORB-specific features.
+
 <div class="platform-card">
     <h3>🤖 Using WLED</h3>
     <ol>
