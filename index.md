@@ -11,6 +11,14 @@ title: GLORB User Guide
 
 <div class="quick-links">
     <div class="link-card">
+        <h3>📱 Mobile Apps</h3>
+        <ul>
+            <li><a href="https://apps.apple.com/us/app/snrgy/id6587549578">SNRGY App for iOS</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid&hl=en">WLED Native for Android</a></li>
+        </ul>
+    </div>
+
+    <div class="link-card">
         <h3>🚀 First Steps</h3>
         <ul>
             <li><a href="{{ site.baseurl }}/setup">Set up your GLORB</a> - Connect your device to WiFi</li>
@@ -22,14 +30,6 @@ title: GLORB User Guide
 ## Quick Links
 
 <div class="quick-links">
-    <div class="link-card">
-        <h3>📱 Mobile Apps</h3>
-        <ul>
-            <li><a href="https://apps.apple.com/us/app/snrgy/id6587549578">SNRGY App for iOS</a></li>
-            <li><a href="https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid&hl=en">WLED Native for Android</a></li>
-        </ul>
-    </div>
-    
     <div class="link-card">
         <h3>🔧 Support</h3>
         <ul>
