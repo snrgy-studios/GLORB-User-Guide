@@ -15,6 +15,7 @@ title: GLORB User Guide
         <ul>
             <li><a href="https://apps.apple.com/us/app/snrgy/id6587549578">SNRGY App for iOS</a></li>
             <li><a href="https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid&hl=en">WLED Native for Android</a></li>
+            <li><a href="{{ site.baseurl }}/beta">SNRGY Beta App for Android</a> - Early beta release!</li>
         </ul>
     </div>
 

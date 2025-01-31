@@ -24,7 +24,6 @@ title: Initial Setup
 </div>
 
 ### Android Users
- > **Note:** We offer the WLED interface as a temporary solution for Android users until we have released our own app. All the same features are available (except Bluetooth control), but the UI/UX is not as polished. We apologise for the added inconvenience with the setup process and will be releasing our own version very soon!
 <div class="platform-card">
     <h3>🤖 Using WLED</h3>
     <ol>
@@ -33,15 +32,19 @@ title: Initial Setup
         <ul>
             <li>Password: <code>wled1234</code> (or <code>glorb1234</code>) if prompted</li>
         </ul>
-        <li>Click "WiFi Settings" in the popup that appears. Go to <code>http://4.3.2.1</code> in a browser if not automatically redirected</li>
+        <li>Click "WiFi Settings" in the popup that appears</li>
+        <ul>
+            <li>Go to <code>http://4.3.2.1</code> in a browser if not automatically redirected</li>
+        </ul>
         <li>Enter your network name (SSID) and password under "Connect to existing network"</li>
         <ul>
-            <li>NOTE: Leave everything else as is, including access point settings</li>
+            <li>NOTE: Leave everything else as is, especially do not touch the WiFi sleep settings!</li>
         </ul>
         <li>Click "Save & Connect" and go back to your home network</li>
         <li>Wait for connection (see <a href="#verifying-connection">Verifying Connection</a>)</li>
     </ol>
 </div>
+ > **Note:** We now have an early beta release of our Android app! You can [download it here]({{ site.baseurl }}/beta). While the beta app is still in development, you can always access the WLED interface through the SNRGY app or the WLED Native app for the full set of features and controls.
 
 ## Verifying Connection
 
@@ -61,10 +64,23 @@ title: Initial Setup
 
 ### Android Users
 <div class="platform-card">
-    <h3>🤖 Using WLED</h3>
+    <h3>🤖 Using WLED Native App</h3>
     <ol>
         <li>Your GLORB device should appear in the <a href="https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid&hl=en">WLED Native app</a> with a listed IP address</li>
         <li>You can also access it through your browser at <code>http://[IP_ADDRESS]</code></li>
+    </ol>
+</div>
+
+<div class="platform-card">
+    <h3>🤖 Using SNRGY App</h3>
+    <ol>
+        <li>Restart the SNRGY app</li>
+        <li>Select your device and go to Settings (⚙️)</li>
+        <li>Check for an IP address in info section</li>
+        <ul>
+            <li>IP address listed → successful connection</li>
+            <li>No IP address → retry connection process</li>
+        </ul>
     </ol>
 </div>
 
