@@ -35,3 +35,21 @@ If the audio reactivity isn't working as expected, you can adjust these settings
 2. Adjust these values:
    - Squelch: Controls the minimum volume needed to trigger effects
    - Gain: Controls how strongly the GLORB responds to sound
+
+## Audio Sync Feature
+
+You can synchronize multiple GLORBs to react to the same audio source! Only one GLORB needs to have its microphone active - it will send the audio data to other GLORBs on your network.
+
+### Setting Up Audio Sync
+
+1. On the GLORB that will capture audio (the sender):
+   - Go to WLED Controls → Config → Usermods
+   - Find the AudioReactive section and set Sync mode to "Send"
+   - Save settings and reboot the GLORB
+
+2. On other GLORBs (the receivers):
+   - Go to WLED Controls → Config → Usermods
+   - Find the AudioReactive section and set Sync mode to "Receive"
+   - Save settings and reboot the GLORB(s)
+
+> **Note:** Audio sync requires your network to support multicast. If sync isn't working, check your router settings or try placing GLORBs closer to your WiFi router.
