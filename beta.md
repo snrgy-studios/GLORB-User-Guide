@@ -15,7 +15,7 @@ title: Beta Releases
 
 ### Latest Beta Release
 - Version: TBD
-- Released: January 31, 2025
+- Released: February 6, 2025
 - [Download APK]({{ site.baseurl }}/releases/android-beta-release.apk)
 
 ### Installation Instructions
