@@ -30,7 +30,9 @@ While these effects work, they haven't been specifically optimized for GLORB's s
 
 ### Adjusting Audio Sensitivity
 
-If the audio reactivity isn't working as expected, you can adjust these settings:
+If the audio reactivity isn't working as expected, you can go to WLED Controls → Info tab to check the audio performance. Adjust the GEQ Input Level if needed. 
+
+You can also try adjusting these settings:
 1. Go to Config → Usermods → AudioReactive
 2. Adjust these values:
    - Squelch: Controls the minimum volume needed to trigger effects
