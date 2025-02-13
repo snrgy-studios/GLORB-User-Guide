@@ -9,51 +9,59 @@ title: Troubleshooting
 
 # Troubleshooting Guide
 
+> The GLORB is a new product in its first production release and we are working hard to fix any issues you may encounter. This guide covers common issues and their solutions. If you need further assistance, please reach out to our support team at [support@glorb.me](mailto:support@glorb.me) - we're committed to ensuring your GLORB works perfectly and we really appreciate your help and patience in this process! 
+
 ## Connection Issues
 
 ### GLORB Not Found in App
-- Power cycle the GLORB (unplug and plug back in) and restart the app
 - iOS: Make sure Bluetooth is enabled
-- Android: Verify GLORB is [connected to WiFi]({{ site.baseurl }}/setup#verifying-connection)
+- Android: Make sure to [connect your GLORB to WiFi]({{ site.baseurl }}/setup#android-users)
+- Power cycle the GLORB (unplug and plug back in) and restart the app
 
 ### No Access Point (AP) in WiFi List
 - Power cycle the GLORB and wait for a full boot
 - Toggle device WiFi to refresh network list
-- Verify that the GLORB is not already [connected to WiFi]({{ site.baseurl }}/setup)
+- Verify that the GLORB is not already [connected to WiFi]({{ site.baseurl }}/setup) (this will deactivate the AP)
 
 ### Connection Failed
 - Check that you're using the correct WiFi network and password
 - Check that you're connecting to a 2.4GHz WiFi network (5GHz networks are not supported)
-- Disable VPNs or other network interference
-- If AP configuration failed, make sure you changed the network settings and not the access point settings (further down on the page). This would rename the AP to the network name (SSID) you entered.
+  - Most routers support both the 2.4GHz and 5GHz band, but you may need to check your router settings to see which ones are active.  
+- Try disabling VPNs or other network interference
+- If AP configuration failed, make sure you changed the network settings and not the access point settings (further down on the page). 
 
 ## Performance Issues
 
 ### GLORB does not start
-- Could be a faulty power supply. See if you can try another one with the same specs (5V/3A)
-- Check if the app recognizes the unit or if the access point (AP) appears in your WiFi networks list. This means it's running but not outputting light. 
-- Fully reset the firmware using the [Web Installer]({{ site.baseurl }}/firmware#web-installer) (bottom of the page). If the web installer doesn't recognise the unit it is not booting at all. 
+- Could be due to a faulty power supply. See if you can try another one with the same specs (5V/3A)
+- Check if the app recognizes the unit or if the access point (AP) appears in your WiFi networks list. This means the GLORB is running but not outputting light. 
+- Fully reset the firmware using the [Web Installer]({{ site.baseurl }}/firmware#web-installer) (bottom of the page). If the web installer does not recognise the unit it is likely not booting at all. 
 - If still not working, contact [support](mailto:support@glorb.me) and we will replace your unit.
 
 ### GLORB Flickers/Freezes/Crashes
-- Power cycle the GLORB and verify the power supply specs
+- Could be due to a faulty power supply. See if you can try another one with the same specs (5V/3A)
 - [Update firmware]({{ site.baseurl }}/firmware) and check [Release Notes]({{ site.baseurl }}/releases) for known issues
-- Check for smart home integration interference
+- Try disabling any smart home integrations or sync features to see if the issue persists
 
 ## App Features
 
 ### Sync Feature
 - Sync only triggers when there's an actual state change on the device
 - Make sure all devices are connected to the same WiFi network
+- Try toggling sync off and on again in the app and reboot all synced devices
 - If multiple devices have sync enabled, they will all broadcast their state changes to each other. Consider designating one device as the master
-- If still not working, try toggling sync off and on again in the app and reboot all synced devices
+- Check your router settings to ensure it supports broadcast traffic on the same network
 
 ### Scheduling Feature
 - Scheduling requires WiFi and location services to work properly. Set your location in device settings to update the local time. You might need to restart the app after setting the location. 
+- Go to WLED Controls → Config → Time & Macros to see if your time is set correctly and that your events get scheduled properly under "Time-controlled presets"
 
 ## Factory Reset Instructions
 
+> The most secure way to factory reset and update your GLORB is using the [Web Installer]({{ site.baseurl }}/firmware#web-installer). This will reset both the firmware and filesystem of the device. 
+
 ### Using GLORB Web Installer
+- You will need a computer with a USB-C port and a Chrome/Edge web browser
 - Visit the [Web Installer]({{ site.baseurl }}/firmware#web-installer) section (bottom of the page) and follow the instructions
 
 ### Using WLED Controls
@@ -61,7 +69,7 @@ title: Troubleshooting
 2. Check the "Factory Reset" box
 3. Click "Save" and wait for device restart
 
-**Note:** Factory reset deletes all presets and settings. You'll need to [backup and restore presets](#backup-and-restore-presets) and [reconnect to WiFi]({{ site.baseurl }}/setup).
+**Note:** This option deletes all presets, you will need to [backup and restore presets](#backup-and-restore-presets) if you want to keep them.
 
 ## Backup and Restore Presets
 

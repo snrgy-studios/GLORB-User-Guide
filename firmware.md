@@ -45,14 +45,17 @@ title: Firmware Updates
 ## Web Installer
 <div class="platform-card">
     <h3>🌐 Using Web Installer</h3>
-    <ol>
-        <li>You need a Chrome/Edge browser and a USB-C port</li>
+    <ul>
+        <li>You will need a Chrome/Edge browser and a USB-C port</li>
+            <ul>
+                <li>Make sure your computer is plugged into a power source for best results</li>
+            </ul>
         <li>Visit the <a href="https://snrgy-studios.github.io/GLORB-WebInstaller/">GLORB Web Installer</a> and follow the instructions
             <ul>
                 <li>See our <a href="#" onclick="openVideoModal(); return false;">video guide</a> for a step-by-step walkthrough</li>
             </ul>
         </li>
-    </ol>
+    </ul>
 </div>
 
 <div class="modal" id="videoModal">
