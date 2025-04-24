@@ -14,8 +14,7 @@ title: Beta Releases
 > **Note:** Our Android app is in early beta. Features will be added gradually with each new release!
 
 ### Latest Beta Release
-- Version: TBD
-- Released: February 6, 2025
+- Released: April 15, 2025
 - [Download APK]({{ site.baseurl }}/releases/android-beta-release.apk)
 
 ### Installation Instructions
