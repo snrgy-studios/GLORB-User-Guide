@@ -11,7 +11,7 @@ title: Initial Setup
 
 ## First-Time WiFi Connection
 
-### iOS Users
+### Bluetooth
 <div class="platform-card">
     <h3>📱 Using SNRGY App</h3>
     <ol>
@@ -23,7 +23,7 @@ title: Initial Setup
     </ol>
 </div>
 
-### Android Users
+### GLORB Access Point
 <div class="platform-card">
     <h3>🤖 Using WLED</h3>
     <ol>
@@ -46,11 +46,9 @@ title: Initial Setup
         <li>Wait for connection (see <a href="#verifying-connection">Verifying Connection</a>)</li>
     </ol>
 </div>
- > **Note:** We now have an early beta release of our Android app! You can [download it here]({{ site.baseurl }}/beta). While the beta app is still in development, you can always access the WLED interface through the SNRGY app or the WLED Native app for the full set of features and controls.
 
 ## Verifying Connection
 
-### iOS Users
 <div class="platform-card">
     <h3>📱 Using SNRGY App</h3>
     <ol>
@@ -64,25 +62,11 @@ title: Initial Setup
     </ol>
 </div>
 
-### Android Users
 <div class="platform-card">
     <h3>🤖 Using WLED Native App</h3>
     <ol>
         <li>Your GLORB device should appear in the <a href="https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid&hl=en">WLED Native app</a> with a listed IP address</li>
         <li>You can also access it through your browser at <code>http://[IP_ADDRESS]</code></li>
-    </ol>
-</div>
-
-<div class="platform-card">
-    <h3>🤖 Using SNRGY App</h3>
-    <ol>
-        <li>Restart the SNRGY app</li>
-        <li>Select your device and go to Settings (⚙️)</li>
-        <li>Check for an IP address in info section</li>
-        <ul>
-            <li>IP address listed → successful connection</li>
-            <li>No IP address → retry connection process</li>
-        </ul>
     </ol>
 </div>
 

@@ -14,8 +14,8 @@ title: Troubleshooting
 ## Connection Issues
 
 ### GLORB Not Found in App
-- iOS: Make sure Bluetooth is enabled
-- Android: Make sure to [connect your GLORB to WiFi]({{ site.baseurl }}/setup#android-users)
+- Make sure Bluetooth is enabled
+- Try allowing location services for the app
 - Power cycle the GLORB (unplug and plug back in) and restart the app
 
 ### No Access Point (AP) in WiFi List
@@ -28,7 +28,6 @@ title: Troubleshooting
 - Check that you're connecting to a 2.4GHz WiFi network (5GHz networks are not supported)
   - Most routers support both the 2.4GHz and 5GHz band, but you may need to check your router settings to see which ones are active.  
 - Try disabling VPNs or other network interference
-- If AP configuration failed, make sure you changed the network settings and not the access point settings (further down on the page). 
 
 ## Performance Issues
 

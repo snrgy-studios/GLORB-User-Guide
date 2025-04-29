@@ -13,13 +13,12 @@ title: WLED Controls Guide
 
 The GLORB is powered by [WLED](https://kno.wled.ge/), an open source lighting control system. While WLED includes many built-in effects designed for LED strips and flat panels, we've adapted a selection of these effects specifically for the GLORB's unique spherical shape. This ensures the lighting patterns flow smoothly across the curved surface.
 
-The SNRGY app (iOS) shows you our customized effects, but you can also access WLED's complete collection of effects through its interface if you want to experiment with more options!
+The SNRGY app shows you our customized effects, but you can also access WLED's complete collection of effects through its interface if you want to experiment with more options!
 
 ## WLED Controls
 
 WLED provides a web interface that gives you access to additional settings and controls beyond what's available in the GLORB app. Here's how to access it:
 
-For iOS users:
 1. Open the SNRGY app and select your device
 2. Go to Settings → WLED Controls
 4. Select "Config" to see all available settings
