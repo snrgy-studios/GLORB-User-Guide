@@ -59,6 +59,7 @@ title: GLORB User Guide
         <h3>ℹ️ Information Pages</h3>
         <ul>
             <li><a href="{{ site.baseurl }}/info/wled-controls">WLED Controls</a> - Understanding the interface</li>
+            <li><a href="{{ site.baseurl }}/info/wled-sync">WLED Sync</a> - Synchronizing multiple devices</li>
             <li><a href="{{ site.baseurl }}/info/audio-reactive">Audio Reactivity</a> - Sound-reactive effects explained</li>
         </ul>
     </div>
