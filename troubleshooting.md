@@ -45,14 +45,15 @@ title: Troubleshooting
 ## App Features
 
 ### Sync Feature
-- Sync only triggers when there's an actual state change on the device
-- Make sure all devices are connected to the same WiFi network
-- Try toggling sync off and on again in the app and reboot all synced devices
-- If multiple devices have sync enabled, they will all broadcast their state changes to each other. Consider designating one device as the master
-- Check your router settings to ensure it supports broadcast traffic on the same network
+- Confirm all devices share the same network
+- Try toggling sync off and on
+- Restart the app and devices
+- Increase [UDP retransmissions]({{ site.baseurl }}/info/wled-sync#sync-settings) if sync is unreliable
+- Verify router supports network broadcast traffic
 
 ### Scheduling Feature
-- Scheduling requires WiFi and location services to work properly. Set your location in device settings to update the local time. You might need to restart the app after setting the location. 
+- Scheduling requires WiFi and location services to work properly. Set your location in device settings to update the local time. 
+- You might need to restart the app after setting the location. 
 - Go to WLED Controls → Config → Time & Macros to see if your time is set correctly and that your events get scheduled properly under "Time-controlled presets"
 
 ## Factory Reset Instructions
