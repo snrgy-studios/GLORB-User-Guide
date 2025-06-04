@@ -60,20 +60,8 @@ Once the GLORB is configured, you'll need to add it to your Alexa app:
 
 <div class="image-grid" style="display: flex; flex-direction: column; align-items: center;">
     <div class="grid-row" style="margin-bottom: 10px; display: flex; justify-content: center;">
-        <img src="{{ site.baseurl }}/assets/images/alexa/alexa1.png" alt="Alexa Setup Step 1" style="width: 45%; margin-right: 2%; object-fit: contain;">
-        <img src="{{ site.baseurl }}/assets/images/alexa/alexa2.png" alt="Alexa Setup Step 2" style="width: 45%; object-fit: contain;">
-    </div>
-    <div class="grid-row" style="margin-bottom: 10px; display: flex; justify-content: center;">
-        <img src="{{ site.baseurl }}/assets/images/alexa/alexa3.png" alt="Alexa Setup Step 3" style="width: 45%; margin-right: 2%; object-fit: contain;">
-        <img src="{{ site.baseurl }}/assets/images/alexa/alexa4.png" alt="Alexa Setup Step 4" style="width: 45%; object-fit: contain;">
-    </div>
-    <div class="grid-row" style="margin-bottom: 10px; display: flex; justify-content: center;">
-        <img src="{{ site.baseurl }}/assets/images/alexa/alexa5.png" alt="Alexa Setup Step 5" style="width: 45%; margin-right: 2%; object-fit: contain;">
-        <img src="{{ site.baseurl }}/assets/images/alexa/alexa6.png" alt="Alexa Setup Step 6" style="width: 45%; object-fit: contain;">
-    </div>
-    <div class="grid-row" style="margin-bottom: 10px; display: flex; justify-content: center;">
-        <img src="{{ site.baseurl }}/assets/images/alexa/alexa7.png" alt="Alexa Setup Step 7" style="width: 45%; margin-right: 2%; object-fit: contain;">
-        <img src="{{ site.baseurl }}/assets/images/alexa/alexa8.png" alt="Alexa Setup Step 8" style="width: 45%; object-fit: contain;">
+        <img src="{{ site.baseurl }}/assets/images/alexa/alexa2.png" alt="Alexa Setup Step 2" style="width: 45%; margin-right: 2%; object-fit: contain;">
+        <img src="{{ site.baseurl }}/assets/images/alexa/alexa3.png" alt="Alexa Setup Step 3" style="width: 45%; object-fit: contain;">
     </div>
 </div>
 
@@ -90,7 +78,23 @@ For a video walkthrough of setting up WLED devices with Alexa, check out this he
 <details markdown="1" class="expandable-section">
 <summary><h2>Philips Hue</h2></summary>
 
-Coming soon...
+This feature allows you to set the color of your GLORB to that of one of your Hue lights. It does NOT enable individual control of your GLORB from the Hue app.
+
+For more information about this integration for WLED devices, visit the [WLED Knowledge Base](https://kno.wled.ge/interfaces/philips-hue/).
+
+### GLORB Setup
+
+1. Navigate to WLED Controls → Config → Sync Interfaces
+2. Scroll down to the "Philips Hue" section
+3. Enter the IP address of your Hue bridge
+4. Enter the Light ID of your Hue light
+   > Note: Newer versions of the Hue app do not display light IDs in the "About" section of the app anymore, to find it, the app **Hue Config Viewer** is highly recommended. It is available on the [Play Store](https://play.google.com/store/apps/details?id=com.life4hue.hueconfigviewer) and [App Store](https://apps.apple.com/app/id1145977453).
+5. Press save and reboot the GLORB
+
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+    <img src="{{ site.baseurl }}/assets/images/wled-philips-hue.png" alt="WLED Philips Hue Integration" style="width: 80%; object-fit: contain;">
+</div>
+
 </details>
 
 <details markdown="1" class="expandable-section">
