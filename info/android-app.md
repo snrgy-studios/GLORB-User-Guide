@@ -13,24 +13,22 @@ An early release of our Android app is now available on the Google Play Store! Y
 
 ## Current Features & Limitations
 
-The app is currently under continuous development and more features will be added soon! 
-
 - Basic Controls:
   - Connection via Bluetooth
   - Animation selection
   - Color palette selection
   - Effect sliders
+  - Preset management
   - Access to WLED Controls
   - WiFi setup via Bluetooth
   - Sleep timer
 - Coming Soon:
-  - Preset management
   - Playlist management
   - Firmware updates
   - Scheduling
 
 ### Known Issues
-- Bluetooth discovery and control is currently slow
+- Multiple-device discovery and control via Bluetooth is currently slow
 - We have tested the app on a limited number of devices, so please let us know if you encounter any issues! 
 - If you are struggling to connect to the device via Bluetooth, you may connect it to WiFi first via the GLORB Access Point (see [Initial Setup Guide]({{ site.baseurl }}/setup#glorb-access-point))
 
