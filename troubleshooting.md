@@ -37,6 +37,22 @@ title: Troubleshooting
 - Fully reset the firmware using the [Web Installer]({{ site.baseurl }}/firmware#web-installer) (bottom of the page). If the web installer does not recognise the unit it is likely not booting at all. 
 - If still not working, contact [support](mailto:support@glorb.me) and we will replace your unit.
 
+### GLORB starts by itself
+
+- Try another power supply with the same specs (5V/3A)
+- Reset firmware using the [Web Installer]({{ site.baseurl }}/firmware#web-installer) to clear potential firmware issues
+- If you have active features like sync or smart home integrations, try disabling them to isolate the cause. If this resolves the issue, please let us know at [support](mailto:support@glorb.me)
+- **If the issue persists**, you can prevent the GLORB from turning on after a restart:
+  1. Go to WLED Controls → Config → LED Preferences
+  2. Under "Defaults", uncheck "Turn LEDs on after power up/reset"
+  3. Click Save
+  - This means if the GLORB restarts, it will remain off until manually switched on
+  - If you are unable to save the page, change "Maximum Current" from 0 to 5000
+
+<div style="text-align: center">
+  <img src="{{ site.baseurl }}/assets/images/wled-default-boot.png" alt="WLED Default Boot Setting" width="80%">
+</div>
+
 ### GLORB Flickers/Freezes/Crashes
 - Could be due to a faulty power supply. See if you can try another one with the same specs (5V/3A)
 - [Update firmware]({{ site.baseurl }}/firmware) and check [Release Notes]({{ site.baseurl }}/releases) for known issues

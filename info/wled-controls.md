@@ -21,6 +21,7 @@ WLED provides a web interface that gives you access to additional settings and c
 
 1. Open the SNRGY app and select your device
 2. Go to Settings → WLED Controls
+3. You'll see tabs for Colors, Effects, and Presets at the bottom of the page
 4. Select "Config" to see all available settings
 
 Below you'll find a list of the most important settings you can adjust. For best results, we recommend leaving any settings not mentioned here at their default values.
@@ -34,16 +35,22 @@ Configure your GLORB's network settings:
 
 ### LED Preferences
 Customize how your GLORB behaves:
+- Set the default boot mode (on or off)
 - Set the default brightness level when powered on
 - Choose which animation plays when your GLORB starts up:
     1. Find the preset ID number in your preset list
     2. Enter that ID in "Apply preset ___ at boot"
 
-> **Note:** If you can't save changes, set "Maximum Current" to 5000 first.
+> **Note:** If you can't save changes, change "Maximum Current" from 0 to 5000 first.
+
+<div style="text-align: center">
+  <img src="{{ site.baseurl }}/assets/images/wled-default-boot.png" alt="WLED Default Boot Setting" width="80%">
+</div>
 
 ### Sync Interfaces
 Set up external control options:
-- Connect to smart home systems like Home Assistant (see [Smart Home Integrations]({{ site.baseurl }}/guides/smart-home))
+- Create diffeent sync groups or adjust sync settings (see [WLED Sync]({{ site.baseurl }}/info/wled-sync))
+- Connect to smart home systems (see [Smart Home Integrations]({{ site.baseurl }}/guides/smart-home))
 - Enable DMX control for professional lighting setups (see [DMX Control]({{ site.baseurl }}/guides/dmx))
 
 ### Time & Macros
