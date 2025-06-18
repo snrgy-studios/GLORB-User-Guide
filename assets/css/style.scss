@@ -101,8 +101,13 @@ a {
     }
     
     ul, ol {
-        margin: 0;
         padding-left: 20px;
+        
+        // Add spacing for nested lists within cards
+        li ul, li ol {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
     }
 }
 
@@ -144,6 +149,12 @@ ol, ul {
         &::marker {
             color: var(--color-text);
             font-weight: bold;
+        }
+        
+        // Add spacing for nested lists
+        ul, ol {
+            margin-top: 8px;
+            margin-bottom: 8px;
         }
     }
 }

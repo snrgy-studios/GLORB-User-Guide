@@ -19,10 +19,11 @@ title: GLORB User Guide
                     <li><a href="{{ site.baseurl }}/info/android-app">Android App Guide</a> - Features & limitations</li>
                 </ul>
             </li>
-            <li><a href="https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid&hl=en">WLED Native App</a></li>
-            <ul>
-                <li><a href="{{ site.baseurl }}/info/wled-controls">WLED Controls Guide</a> - Additional settings & features</li>
-            </ul>
+            <li><a href="https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid&hl=en">WLED Native App</a>
+                <ul>
+                    <li><a href="{{ site.baseurl }}/info/wled-controls">WLED Controls Guide</a> - Additional settings & features</li>
+                </ul>
+            </li>
         </ul>
     </div>
 
