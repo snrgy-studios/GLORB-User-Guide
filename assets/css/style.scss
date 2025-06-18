@@ -103,10 +103,10 @@ a {
     ul, ol {
         padding-left: 20px;
         
-        // Add spacing for nested lists within cards
+        // Add spacing for nested lists within cards - more specific selector
         li ul, li ol {
-            margin-top: 8px;
-            margin-bottom: 8px;
+            margin-top: 8px !important;
+            margin-bottom: 8px !important;
         }
     }
 }
@@ -153,8 +153,8 @@ ol, ul {
         
         // Add spacing for nested lists
         ul, ol {
-            margin-top: 8px;
-            margin-bottom: 8px;
+            margin-top: 8px !important;
+            margin-bottom: 8px !important;
         }
     }
 }
