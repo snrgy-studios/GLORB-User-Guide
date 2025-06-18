@@ -5,12 +5,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 :root {
+    // Base colors
     --color-bg: #000000;
     --color-text: #ffffff;
     --color-border: #333333;
     --color-code-bg: #111111;
+    
+    // Semantic colors
+    --color-card-bg: #111111;
+    --color-hover: #999999;
+    --color-border-hover: #666666;
+    --color-muted: #999999;
+    
+    // Spacing
+    --spacing-xs: 8px;
+    --spacing-sm: 16px;
+    --spacing-md: 24px;
+    --spacing-lg: 32px;
+    --spacing-xl: 40px;
+    
+    // Border radius
+    --radius-sm: 6px;
+    --radius-md: 8px;
 }
 
+// Reset and base styles
 body {
     font-family: 'Inter', 'Arial', sans-serif;
     background-color: var(--color-bg);
@@ -20,10 +39,13 @@ body {
     padding: 0 clamp(16px, 4vw, 20px);
 }
 
-.page-header {
+// Hidden elements
+.page-header,
+.site-footer {
     display: none;
 }
 
+// Main layout
 .main-content {
     max-width: 800px;
     margin: 0 auto;
@@ -44,9 +66,9 @@ body {
     .content-container {
         max-width: 600px;
         margin: 0 auto;
-        background-color: #111;
-        border-radius: 8px;
-        padding: 32px;
+        background-color: var(--color-card-bg);
+        border-radius: var(--radius-md);
+        padding: var(--spacing-lg);
     }
 }
 
@@ -63,7 +85,7 @@ h2 {
     margin: clamp(28px, 6vw, 40px) 0 clamp(14px, 4vw, 20px);
     text-transform: uppercase;
     font-weight: 600;
-    padding-bottom: 8px;
+    padding-bottom: var(--spacing-xs);
     border-bottom: 1px solid var(--color-border);
     text-align: center;
 }
@@ -75,10 +97,14 @@ h3 {
     margin: clamp(16px, 4vw, 24px) 0 clamp(10px, 3vw, 16px);
 }
 
+// Links
 a {
     color: var(--color-text);
     text-decoration: underline;
-    &:hover { color: #999; }
+    
+    &:hover { 
+        color: var(--color-hover); 
+    }
 }
 
 // Cards
@@ -90,43 +116,34 @@ a {
     gap: 1rem;
 }
 
-.link-card, .platform-card {
-    background-color: #111;
-    border-radius: 8px;
-    padding: 24px;
+.link-card, 
+.platform-card {
+    background-color: var(--color-card-bg);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
     margin-bottom: 1rem;
     
     h3 {
         margin: 0 0 1rem;
     }
-    
-    ul, ol {
-        padding-left: 20px;
-        
-        // Add spacing for nested lists within cards - more specific selector
-        li ul, li ol {
-            margin-top: 8px !important;
-            margin-bottom: 8px !important;
-        }
-    }
 }
 
-// Back navigation
+// Navigation
 .back-nav {
     text-align: left;
     
     a {
         display: inline-block;
         margin: 0 0 2rem;
-        padding: 8px 16px;
-        color: #999;
+        padding: var(--spacing-xs) var(--spacing-sm);
+        color: var(--color-muted);
         text-decoration: none;
         border: 1px solid var(--color-border);
-        border-radius: 6px;
+        border-radius: var(--radius-sm);
         
         &:hover {
             color: var(--color-text);
-            border-color: #666;
+            border-color: var(--color-border-hover);
         }
     }
 }
@@ -135,15 +152,15 @@ a {
 code {
     background-color: var(--color-code-bg);
     padding: 0.2em 0.4em;
-    border-radius: 6px;
+    border-radius: var(--radius-sm);
     font-size: 0.9em;
 }
 
 ol, ul {
-    padding-left: 24px;
+    padding-left: var(--spacing-md);
     
     li {
-        margin: 8px 0;
+        margin: var(--spacing-xs) 0;
         line-height: 1.4;
         
         &::marker {
@@ -151,39 +168,27 @@ ol, ul {
             font-weight: bold;
         }
         
-        // Add spacing for nested lists
+        // Nested lists spacing
         ul, ol {
-            margin-top: 8px !important;
-            margin-bottom: 8px !important;
+            margin: var(--spacing-xs) 0 !important;
         }
     }
 }
 
-@media (max-width: 600px) {
-
-    .main-content { 
-        padding: 2rem 0; 
-        .banner {
-            width: calc(100% + 64px);
-            margin: calc(-20vw) -32px calc(-20vw);
-        }
-    }
+// Cards with lists
+.link-card ul, 
+.link-card ol,
+.platform-card ul, 
+.platform-card ol {
+    padding-left: 20px;
 }
 
-// Hide footer
-.site-footer {
-    display: none;
-}
-
-// Modal styles
+// Modal
 .modal {
     display: none;
     position: fixed;
     z-index: 1000;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0;
     background-color: rgba(0, 0, 0, 0.9);
     
     &.active {
@@ -199,7 +204,7 @@ ol, ul {
         
         video {
             width: 100%;
-            border-radius: 8px;
+            border-radius: var(--radius-md);
             max-height: 90vh;
             object-fit: contain;
         }
@@ -213,15 +218,27 @@ ol, ul {
         position: absolute;
         top: -40px;
         right: 0;
-        color: #fff;
+        color: var(--color-text);
         font-size: 24px;
         cursor: pointer;
         background: none;
         border: none;
-        padding: 8px;
+        padding: var(--spacing-xs);
         
         &:hover {
-            color: #999;
+            color: var(--color-hover);
+        }
+    }
+}
+
+// Responsive
+@media (max-width: 600px) {
+    .main-content { 
+        padding: 2rem 0; 
+        
+        .banner {
+            width: calc(100% + 64px);
+            margin: calc(-20vw) -32px calc(-20vw);
         }
     }
 }
