@@ -20,7 +20,9 @@ Coming soon...
 <details markdown="1" class="expandable-section">
 <summary><h2>Amazon Alexa</h2></summary>
 
-The GLORB can be controlled via Amazon Alexa through its built-in Alexa emulation feature. Here's how to set it up:
+The GLORB can be controlled via Amazon Alexa through its built-in Alexa emulation feature. You will need an Echo device for the setup process. 
+
+Here's how to set it up:
 
 ### GLORB Setup
 
@@ -47,14 +49,15 @@ You can view and edit your preset names and IDs in WLED Controls → Presets tab
 Once the GLORB is configured, you'll need to add it to your Alexa app:
 
 1. Open the Alexa app on your mobile device
-2. Tap on "Devices" at the bottom of the screen
-3. Tap the "+" (plus) icon in the top right corner
-4. Select "Add Device"
-5. Scroll down and select "Other" at the bottom of the list
-6. Choose "WiFi"
-7. Press "Discover Devices" and wait while Alexa searches
-8. Your GLORB device should be discovered with the name you configured
-9. Follow the on-screen instructions to complete the setup
+2. Set up your Echo device (if not already paired)
+3. Tap on "Devices" at the bottom of the screen
+4. Tap the "+" (plus) icon in the top right corner
+5. Select "Add Device"
+6. Scroll down and select "Other" at the bottom of the list
+7. Choose "WiFi"
+8. Press "Discover Devices" and wait while Alexa searches
+9. Your GLORB device should be discovered with the name you configured
+10. Follow the on-screen instructions to complete the setup
 
 <br>
 
