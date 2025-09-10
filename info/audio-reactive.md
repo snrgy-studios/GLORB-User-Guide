@@ -28,15 +28,49 @@ The WLED interface (see [WLED Controls Guide]({{ site.baseurl }}/info/wled-contr
 
 While these effects work, they haven't been specifically optimized for GLORB's spherical shape yet.
 
-### Adjusting Audio Sensitivity
+## Adjusting Audio Settings
 
-If the audio reactivity isn't working as expected, you can go to WLED Controls → Info tab to check the audio performance. Adjust the GEQ Input Level if needed. 
+If the audio reactivity isn't working as expected, you can go to **Settings → WLED Controls → Config → Usermods → AudioReactive** and adjust the following settings as needed. 
 
-You can also try adjusting these settings:
-1. Go to Config → Usermods → AudioReactive
-2. Adjust these values:
-   - Squelch: Controls the minimum volume needed to trigger effects
-   - Gain: Controls how strongly the GLORB responds to sound
+> **Note:** These settings affect all audio-reactive animations globally, but individual animations may interpret and use these settings differently. 
+
+### Config
+
+**Squelch** – Filters out background noise (recommended: 4–6).
+- Lower numbers make the mic more sensitive.
+- Higher numbers ignore quiet sounds.
+
+**Gain** – Boosts the incoming audio signal (recommended: 40–60).
+- Increase if effects look too weak.
+- Decrease if the lights “max out” too easily.
+
+**AGC (Automatic Gain Control)** – Keeps volume levels balanced.
+- Leave on Normal for most situations.
+
+### Dynamics
+
+**Limiter** – Prevents loud sounds from overwhelming the effects.
+- Keep this switched ON.
+
+**Rise** – How fast the lights respond to new sounds (recommended: 50–100 ms).
+- Lower = snappier
+- Higher = smoother.
+
+**Fall** – How long the lights take to fade after a sound (recommended: 800–1500 ms).
+- Lower = quick fade
+- Higher = lingering trails.
+
+### Frequency
+
+**Scale** – Controls how frequencies are balanced.
+- Square Root (Energy) is best for natural, balanced visuals.
+
+### Quick Fix Tips
+
+- If nothing reacts, lower Squelch or raise Gain.
+- If the lights stay maxed out, lower Gain or raise Squelch.
+- If effects look too jittery, increase Rise and Fall.
+- If they lag too much, decrease Fall.
 
 ## Audio Sync Feature
 
