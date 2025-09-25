@@ -4,12 +4,12 @@ title: DMX Control Guide
 ---
 
 <div class="back-nav">
-  <a href="{{ site.baseurl }}/">← Back to Guide</a>
+  <a href="/">← Back to Guide</a>
 </div>
 
 # DMX Control Guide
 
-> **Important:** Before proceeding, make sure your GLORB is running the [latest firmware]({{ site.baseurl }}/firmware). With the latest release, you can optionally disable the Bluetooth Control module for a smoother DMX output, since it interferes with realtime light control due to WiFi sleep requirements.
+> **Important:** Before proceeding, make sure your GLORB is running the [latest firmware](/firmware). With the latest release, you can optionally disable the Bluetooth Control module for a smoother DMX output, since it interferes with realtime light control due to WiFi sleep requirements.
 
 ## Overview
 The GLORB is built using [WLED](https://kno.wled.ge/) firmware, which supports variuos protocols for realtime light control from computers and light interfaces. 
@@ -19,7 +19,7 @@ This guide will show you how to set up remote DMX control on your GLORB!
 ## Configuring DMX (E1.31/Art-Net)
 
 1. (iOS) Go to Settings → WLED Controls to access the WLED interface
-    - Make sure your GLORB is [connected to WiFi]({{ site.baseurl }}/setup)
+    - Make sure your GLORB is [connected to WiFi](/setup)
 2. (Optional) Navigate to Config → Usermods
     - Disable the Bluetooth Control module and press Save
 3. Navigate to Config → Sync Interfaces
@@ -78,7 +78,7 @@ For more detailed information and further options, visit the [WLED DMX Documenta
 
 The GLORB is configured as a 6x20 matrix with 120 addressable LEDs, running from left to right. However, only 80 of these LEDs are physically present - the rest are "virtual" LEDs used for mapping purposes.
 
-![GLORB LED Map]({{ site.baseurl }}/assets/images/ledmap.png)
+![GLORB LED Map](/assets/images/ledmap.png)
 
 When using DMX control with Multiple RGB mode, keep in mind:
 - Each LED uses 3 channels (RGB)

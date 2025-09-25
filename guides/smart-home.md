@@ -4,7 +4,7 @@ title: Smart Home Integration
 ---
 
 <div class="back-nav">
-  <a href="{{ site.baseurl }}/">← Back to Guide</a>
+  <a href="/">← Back to Guide</a>
 </div>
 
 # Smart Home Integrations
@@ -34,7 +34,7 @@ Here's how to set it up:
 6. Save the configuration
 7. Restart your GLORB for changes to take effect
 
-![WLED Alexa Integration]({{ site.baseurl }}/assets/images/wled-alexa.png){:width="80%" style="display: block; margin: 0 auto;"}
+![WLED Alexa Integration](/assets/images/wled-alexa.png){:width="80%" style="display: block; margin: 0 auto;"}
 
 ### Preset Control
 
@@ -42,7 +42,7 @@ You can control GLORB presets through Alexa by adjusting the "**Also emulate dev
 
 You can view and edit your preset names and IDs in WLED Controls → Presets tab. Presets are not editable in the SNRGY app yet. 
 
-![WLED Presets]({{ site.baseurl }}/assets/images/wled-presets.png){:width="50%" style="display: block; margin: 0 auto;"}
+![WLED Presets](/assets/images/wled-presets.png){:width="50%" style="display: block; margin: 0 auto;"}
 
 ### Alexa Setup
 
@@ -63,8 +63,8 @@ Once the GLORB is configured, you'll need to add it to your Alexa app:
 
 <div class="image-grid" style="display: flex; flex-direction: column; align-items: center;">
     <div class="grid-row" style="margin-bottom: 10px; display: flex; justify-content: center;">
-        <img src="{{ site.baseurl }}/assets/images/alexa/alexa2.png" alt="Alexa Setup Step 2" style="width: 45%; margin-right: 2%; object-fit: contain;">
-        <img src="{{ site.baseurl }}/assets/images/alexa/alexa3.png" alt="Alexa Setup Step 3" style="width: 45%; object-fit: contain;">
+        <img src="/assets/images/alexa/alexa2.png" alt="Alexa Setup Step 2" style="width: 45%; margin-right: 2%; object-fit: contain;">
+        <img src="/assets/images/alexa/alexa3.png" alt="Alexa Setup Step 3" style="width: 45%; object-fit: contain;">
     </div>
 </div>
 
@@ -95,7 +95,7 @@ For more information about this integration for WLED devices, visit the [WLED Kn
 5. Press save and reboot the GLORB
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
-    <img src="{{ site.baseurl }}/assets/images/wled-philips-hue.png" alt="WLED Philips Hue Integration" style="width: 80%; object-fit: contain;">
+    <img src="/assets/images/wled-philips-hue.png" alt="WLED Philips Hue Integration" style="width: 80%; object-fit: contain;">
 </div>
 
 </details>

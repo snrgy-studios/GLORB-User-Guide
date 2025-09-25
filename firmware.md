@@ -4,7 +4,7 @@ title: Firmware Updates
 ---
 
 <div class="back-nav">
-  <a href="{{ site.baseurl }}/">← Back to Guide</a>
+  <a href="/">← Back to Guide</a>
 </div>
 
 # Updating Your GLORB Firmware
@@ -15,7 +15,7 @@ title: Firmware Updates
     <ol>
         <li>Open the <a href="https://apps.apple.com/us/app/snrgy/id6587549578">SNRGY app</a> and select your GLORB device on the start screen</li>
         <li>Navigate to Settings (⚙️)</li>
-        <li>Make sure the device is connected to WiFi (see <a href="{{ site.baseurl }}/setup#verifying-connection">Verifying WiFi Connection</a>)</li>
+        <li>Make sure the device is connected to WiFi (see <a href="/setup#verifying-connection">Verifying WiFi Connection</a>)</li>
         <li>Go to Firmware updates and select the latest release</li>
         <li>Select the bin file under Assets. Press Update and wait for completion</li>
     </ol>
@@ -28,7 +28,7 @@ title: Firmware Updates
 <div class="platform-card">
     <h3>🤖 Using WLED</h3>
     <ol>
-        <li>Download the latest firmware release: <a href="{{ site.baseurl }}/releases/GLORB_0.14.4-1.1.bin">GLORB_0.14.4-1.1.bin</a></li>
+        <li>Download the latest firmware release: <a href="/releases/GLORB_0.14.4-1.1.bin">GLORB_0.14.4-1.1.bin</a></li>
         <li>Use either:
             <ul>
                 <li>WLED Native app (mobile) - <a href="https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid&hl=en">Download</a></li>
@@ -63,7 +63,7 @@ title: Firmware Updates
     <div class="modal-content">
         <button class="close-modal" onclick="closeVideoModal()">×</button>
         <video controls>
-            <source src="{{ site.baseurl }}/assets/videos/glorb-web-installer.mp4" type="video/mp4">
+            <source src="/assets/videos/glorb-web-installer.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>

@@ -4,7 +4,7 @@ title: Audio Reactivity Guide
 ---
 
 <div class="back-nav">
-  <a href="{{ site.baseurl }}/">← Back to Guide</a>
+  <a href="/">← Back to Guide</a>
 </div>
 
 # Audio Reactivity Guide
@@ -18,11 +18,11 @@ Currently, these GLORB animations support audio reactivity:
 
 We're actively developing more audio-reactive animations that will be available in future updates!
 
-> **Note:** We're aware of an issue where the Swirl effect occasionally stops responding to audio. As a temporary solution, we've added a "regular" non-reactive Swirl mode in the [latest firmware version]({{ site.baseurl }}/firmware). A full fix is coming soon.
+> **Note:** We're aware of an issue where the Swirl effect occasionally stops responding to audio. As a temporary solution, we've added a "regular" non-reactive Swirl mode in the [latest firmware version](/firmware). A full fix is coming soon.
 
 ## Additional Audio-Reactive Effects
 
-The WLED interface (see [WLED Controls Guide]({{ site.baseurl }}/info/wled-controls)) offers many more audio-reactive effects beyond the GLORB-optimized ones. You can find these by:
+The WLED interface (see [WLED Controls Guide](/info/wled-controls)) offers many more audio-reactive effects beyond the GLORB-optimized ones. You can find these by:
 1. Looking for the musical note (♪) icon next to effect names
 2. Using the audio-reactive filter in the effects list
 

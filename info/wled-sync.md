@@ -4,7 +4,7 @@ title: WLED Sync Guide
 ---
 
 <div class="back-nav">
-  <a href="{{ site.baseurl }}/">← Back to Guide</a>
+  <a href="/">← Back to Guide</a>
 </div>
 
 # Understanding WLED Sync
@@ -40,7 +40,7 @@ Each device can be configured as:
   - Lower (0-2): Faster but risk of packets getting lost 
 
 <div style="text-align: center;">
-    <img src="{{ site.baseurl }}/assets/images/sync_setup.jpeg" alt="WLED Sync Settings" style="width: 80%; max-width: 500px;">
+    <img src="/assets/images/sync_setup.jpeg" alt="WLED Sync Settings" style="width: 80%; max-width: 500px;">
 </div>
 
 ## Troubleshooting

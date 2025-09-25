@@ -4,7 +4,7 @@ title: Release Notes
 ---
 
 <div class="back-nav">
-  <a href="{{ site.baseurl }}/">← Back to Guide</a>
+  <a href="/">← Back to Guide</a>
 </div>
 
 # GLORB Firmware Releases

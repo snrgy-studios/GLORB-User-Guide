@@ -4,7 +4,7 @@ title: Initial Setup
 ---
 
 <div class="back-nav">
-  <a href="{{ site.baseurl }}/">← Back to Guide</a>
+  <a href="/">← Back to Guide</a>
 </div>
 
 # Setting Up Your GLORB
@@ -32,17 +32,17 @@ title: Initial Setup
         <ul>
             <li>Password: <code>wled1234</code> (or <code>glorb1234</code>) if prompted</li>
         </ul>
-        <img src="{{ site.baseurl }}/assets/images/wled-ap.png" alt="WLED Access Point" style="width: 80%; max-width: 500px;">
+        <img src="/assets/images/wled-ap.png" alt="WLED Access Point" style="width: 80%; max-width: 500px;">
         <li>Click "WiFi Settings" in the popup that appears</li>
         <ul>
             <li>Go to <code>http://4.3.2.1</code> in a browser if not automatically redirected</li>
         </ul>
-        <img src="{{ site.baseurl }}/assets/images/wled-welcome.png" alt="WLED Welcome Screen" style="width: 80%; max-width: 500px;">
+        <img src="/assets/images/wled-welcome.png" alt="WLED Welcome Screen" style="width: 80%; max-width: 500px;">
         <li>Enter your network name (SSID) and password under "Connect to existing network". Press "Save & Connect" and go back to your home network.</li>
         <ul>
             <li>NOTE: Leave everything else as is, especially do not touch the WiFi sleep settings!</li>
         </ul>
-        <img src="{{ site.baseurl }}/assets/images/wled-wifi.png" alt="WLED WiFi Settings" style="width: 80%; max-width: 500px;">
+        <img src="/assets/images/wled-wifi.png" alt="WLED WiFi Settings" style="width: 80%; max-width: 500px;">
         <li>Wait for connection (see <a href="#verifying-connection">Verifying Connection</a>)</li>
     </ol>
 </div>
@@ -79,6 +79,6 @@ title: Initial Setup
         <li>Try restarting your GLORB and/or the app</li>
         <li>Check that your WiFi password is correct</li>
         <li>Ensure your network is 2.4GHz (5GHz networks are not supported)</li>
-        <li>See our full <a href="{{ site.baseurl }}/troubleshooting#wifi-connection-issues">troubleshooting guide</a></li>
+        <li>See our full <a href="/troubleshooting#connection-issues">troubleshooting guide</a></li>
     </ul>
 </div> 

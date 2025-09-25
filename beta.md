@@ -4,7 +4,7 @@ title: Beta Releases
 ---
 
 <div class="back-nav">
-  <a href="{{ site.baseurl }}/">← Back to Guide</a>
+  <a href="/">← Back to Guide</a>
 </div>
 
 # Beta Releases
@@ -15,13 +15,13 @@ title: Beta Releases
 
 ### Latest Beta Release
 - Released: April 15, 2025
-- [Download APK]({{ site.baseurl }}/releases/android-beta-release.apk)
+- [Download APK](/releases/android-beta-release.apk)
 
 ### Installation Instructions
-1. First [connect your GLORB to WiFi]({{ site.baseurl }}/setup#android-users) using the GLORB's access point
+1. First [connect your GLORB to WiFi](/setup#android-users) using the GLORB's access point
    - This is recommended as Bluetooth control is currently slow
 2. Enable "Install from Unknown Sources" in your Android settings
-3. Download and install the [APK file]({{ site.baseurl }}/releases/android-beta-release.apk)
+3. Download and install the [APK file](/releases/android-beta-release.apk)
 4. Open the SNRGY app and start controlling your GLORB!
 
 ### Current Features & Limitations

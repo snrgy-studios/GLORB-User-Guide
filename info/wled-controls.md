@@ -4,7 +4,7 @@ title: WLED Controls Guide
 ---
 
 <div class="back-nav">
-  <a href="{{ site.baseurl }}/">← Back to Guide</a>
+  <a href="/">← Back to Guide</a>
 </div>
 
 # Understanding WLED Controls
@@ -44,14 +44,14 @@ Customize how your GLORB behaves:
 > **Note:** If you can't save changes, change "Maximum Current" from 0 to 5000 first.
 
 <div style="text-align: center">
-  <img src="{{ site.baseurl }}/assets/images/wled-default-boot.png" alt="WLED Default Boot Setting" width="80%">
+  <img src="/assets/images/wled-default-boot.png" alt="WLED Default Boot Setting" width="80%">
 </div>
 
 ### Sync Interfaces
 Set up external control options:
-- Create diffeent sync groups or adjust sync settings (see [WLED Sync]({{ site.baseurl }}/info/wled-sync))
-- Connect to smart home systems (see [Smart Home Integrations]({{ site.baseurl }}/guides/smart-home))
-- Enable DMX control for professional lighting setups (see [DMX Control]({{ site.baseurl }}/guides/dmx))
+- Create diffeent sync groups or adjust sync settings (see [WLED Sync](/info/wled-sync))
+- Connect to smart home systems (see [Smart Home Integrations](/guides/smart-home))
+- Enable DMX control for professional lighting setups (see [DMX Control](/guides/dmx))
 
 ### Time & Macros
 Automate your GLORB:
@@ -62,11 +62,11 @@ Automate your GLORB:
 Advanced settings:
 - Fine-tune sound reactivity sensitivity and response
 - Toggle Bluetooth functionality
-    - Disabling Bluetooth may help resolve [DMX control issues]({{ site.baseurl }}/guides/dmx)
+    - Disabling Bluetooth may help resolve [DMX control issues](/guides/dmx)
 
 ### Security & Updates
 Manage your device:
-- Reset to factory settings if needed (see [Factory Reset Instructions]({{ site.baseurl }}/troubleshooting#factory-reset-instructions))
-- Update firmware manually (see [Firmware Updates]({{ site.baseurl }}/firmware#android-users))
-- Backup and restore your presets (see [Backup and Restore Presets]({{ site.baseurl }}/troubleshooting#backup-and-restore-presets))
+- Reset to factory settings if needed (see [Factory Reset Instructions](/troubleshooting#factory-reset-instructions))
+- Update firmware manually (see [Firmware Updates](/firmware#android-users))
+- Backup and restore your presets (see [Backup and Restore Presets](/troubleshooting#backup-and-restore-presets))
 

@@ -4,7 +4,7 @@ title: Troubleshooting
 ---
 
 <div class="back-nav">
-  <a href="{{ site.baseurl }}/">← Back to Guide</a>
+  <a href="/">← Back to Guide</a>
 </div>
 
 # Troubleshooting Guide
@@ -21,7 +21,7 @@ title: Troubleshooting
 ### No Access Point (AP) in WiFi List
 - Power cycle the GLORB and wait for a full boot
 - Toggle device WiFi to refresh network list
-- Verify that the GLORB is not already [connected to WiFi]({{ site.baseurl }}/setup) (this will deactivate the AP)
+- Verify that the GLORB is not already [connected to WiFi](/setup) (this will deactivate the AP)
 
 ### Connection Failed
 - Check that you're using the correct WiFi network and password
@@ -34,13 +34,13 @@ title: Troubleshooting
 ### GLORB does not start
 - Could be due to a faulty power supply. See if you can try another one with the same specs (5V/3A)
 - Check if the app recognizes the unit or if the access point (AP) appears in your WiFi networks list. This means the GLORB is running but not outputting light. 
-- Fully reset the firmware using the [Web Installer]({{ site.baseurl }}/firmware#web-installer) (bottom of the page). If the web installer does not recognise the unit it is likely not booting at all. 
+- Fully reset the firmware using the [Web Installer](/firmware#web-installer) (bottom of the page). If the web installer does not recognise the unit it is likely not booting at all. 
 - If still not working, contact [support](mailto:support@glorb.me) and we will replace your unit.
 
 ### GLORB starts by itself
 
 - Try another power supply with the same specs (5V/3A)
-- Reset firmware using the [Web Installer]({{ site.baseurl }}/firmware#web-installer) to clear potential firmware issues
+- Reset firmware using the [Web Installer](/firmware#web-installer) to clear potential firmware issues
 - If you have active features like sync or smart home integrations, try disabling them to isolate the cause. If this resolves the issue, please let us know at [support](mailto:support@glorb.me)
 - **If the issue persists**, you can prevent the GLORB from turning on after a restart:
   1. Go to WLED Controls → Config → LED Preferences
@@ -50,12 +50,12 @@ title: Troubleshooting
   - If you are unable to save the page, change "Maximum Current" from 0 to 5000
 
 <div style="text-align: center">
-  <img src="{{ site.baseurl }}/assets/images/wled-default-boot.png" alt="WLED Default Boot Setting" width="80%">
+  <img src="/assets/images/wled-default-boot.png" alt="WLED Default Boot Setting" width="80%">
 </div>
 
 ### GLORB Flickers/Freezes/Crashes
 - Could be due to a faulty power supply. See if you can try another one with the same specs (5V/3A)
-- [Update firmware]({{ site.baseurl }}/firmware) and check [Release Notes]({{ site.baseurl }}/releases) for known issues
+- [Update firmware](/firmware) and check [Release Notes](/releases) for known issues
 - Try disabling any smart home integrations or sync features to see if the issue persists
 
 ## App Features
@@ -64,7 +64,7 @@ title: Troubleshooting
 - Confirm all devices share the same network
 - Try toggling sync off and on
 - Restart the app and devices
-- Increase [UDP retransmissions]({{ site.baseurl }}/info/wled-sync#sync-settings) if sync is unreliable
+- Increase [UDP retransmissions](/info/wled-sync#sync-settings) if sync is unreliable
 - Verify router supports network broadcast traffic
 
 ### Scheduling Feature
@@ -74,11 +74,11 @@ title: Troubleshooting
 
 ## Factory Reset Instructions
 
-> The most secure way to factory reset and update your GLORB is using the [Web Installer]({{ site.baseurl }}/firmware#web-installer). This will reset both the firmware and filesystem of the device. 
+> The most secure way to factory reset and update your GLORB is using the [Web Installer](/firmware#web-installer). This will reset both the firmware and filesystem of the device. 
 
 ### Using GLORB Web Installer
 - You will need a computer with a USB-C port and a Chrome/Edge web browser
-- Visit the [Web Installer]({{ site.baseurl }}/firmware#web-installer) section (bottom of the page) and follow the instructions
+- Visit the [Web Installer](/firmware#web-installer) section (bottom of the page) and follow the instructions
 
 ### Using WLED Controls
 1. Go to Config → Security & Updates

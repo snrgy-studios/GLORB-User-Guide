@@ -4,22 +4,22 @@ title: Known Issues
 ---
 
 <div class="back-nav">
-  <a href="{{ site.baseurl }}/">← Back to Guide</a>
+  <a href="/">← Back to Guide</a>
 </div>
 
 # Known Issues
 
-This page lists currently known issues with GLORB hardware, firmware, and apps. For solutions to common problems, see our [Troubleshooting Guide]({{ site.baseurl }}/troubleshooting).
+This page lists currently known issues with GLORB hardware, firmware, and apps. For solutions to common problems, see our [Troubleshooting Guide](/troubleshooting).
 
 ## Important Notice
 
 Before reporting any issues, please ensure you are running the latest versions:
 
 ### Check Your Versions
-1. **GLORB Firmware**: [Update to latest version]({{ site.baseurl }}/firmware)
-2. **Mobile Apps**: See [Quick Links]({{ site.baseurl }}/#quick-links) for app downloads
+1. **GLORB Firmware**: [Update to latest version](/firmware)
+2. **Mobile Apps**: See [Quick Links](/#quick-links) for app downloads
 
-See our [Release Notes]({{ site.baseurl }}/releases) for details on the latest improvements and fixes.
+See our [Release Notes](/releases) for details on the latest improvements and fixes.
 
 ## Hardware Issues
 
@@ -44,7 +44,7 @@ Dead LEDs
 
 ### Animations
 - Swirl effect stops running sometimes in sound reactive mode
-  - Note! This animation is sound reactive by default. A "regular" mode is added in the [latest firmware release]({{ site.baseurl }}/firmware).
+  - Note! This animation is sound reactive by default. A "regular" mode is added in the [latest firmware release](/firmware).
 
 ## Mobile App
 
@@ -58,7 +58,7 @@ Dead LEDs
   - Set your preset ID and save the page. If this generates an error, change Maximum Current from 0 to 5000 before saving. 
 
 ### SNRGY App (Android)
-- See [Android App Guide]({{ site.baseurl }}/info/android-app) for current features and limitations
+- See [Android App Guide](/info/android-app) for current features and limitations
 
 ## Reporting Issues
 Found a bug not listed here? Help us improve:
@@ -69,9 +69,9 @@ Found a bug not listed here? Help us improve:
     <div class="modal-content">
         <button class="close-modal" onclick="closeVideoModal()">×</button>
         <video controls>
-            <source src="{{ site.baseurl }}/assets/videos/panel-fix.mov" type="video/mp4">
+            <source src="/assets/videos/panel-fix.mov" type="video/mp4">
             Your browser does not support the video tag. 
-            <a href="{{ site.baseurl }}/assets/videos/panel-fix.mov">Download the video</a>
+            <a href="/assets/videos/panel-fix.mov">Download the video</a>
         </video>
     </div>
 </div>
