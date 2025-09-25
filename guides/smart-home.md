@@ -30,7 +30,7 @@ Here's how to set it up:
 2. Find the "Alexa Voice Assistant" section
 3. Enable "Emulate Alexa device"
 4. Enter your desired device name in the "Alexa invocation name" field
-5. (Optional) Adjust the number of presets you want to emulate (see next section)
+5. Set the number of presets to 0 for best performance (see below)
 6. Save the configuration
 7. Restart your GLORB for changes to take effect
 
@@ -38,9 +38,9 @@ Here's how to set it up:
 
 ### Preset Control
 
-You can control GLORB presets through Alexa by adjusting the "**Also emulate devices to call the first ___ presets**" setting. When you increase this number, Alexa will create separate virtual devices for each of the first X presets in the list, using the current preset name as invocation name. Make sure to use a name that Alexa can recognise easily. 
+To control GLORB presets with Alexa, you can enable preset emulation in the Alexa settings. This will create virtual devices for the first X presets in your preset list (X between 1-9), but we recommend keeping this disabled as it can be unreliable.
 
-You can view and edit your preset names and IDs in WLED Controls → Presets tab. Presets are not editable in the SNRGY app yet. 
+If you do want to use presets, you can manage their IDs and names in WLED Controls → Presets tab. Make sure to use simple, clear names that Alexa can understand. 
 
 ![WLED Presets](/assets/images/wled-presets.png){:width="50%" style="display: block; margin: 0 auto;"}
 
