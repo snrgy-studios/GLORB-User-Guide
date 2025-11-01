@@ -22,14 +22,13 @@ An early release of our Android app is now available on the Google Play Store! Y
   - Access to WLED Controls
   - WiFi setup via Bluetooth
   - Sleep timer
+  - Firmware updates
 - Coming Soon:
   - Playlist management
-  - Firmware updates
   - Scheduling
 
 ### Known Issues
 - Multiple-device discovery and control via Bluetooth is currently slow
-- We have tested the app on a limited number of devices, so please let us know if you encounter any issues! 
 - If you are struggling to connect to the device via Bluetooth, you may connect it to WiFi first via the GLORB Access Point (see [Initial Setup Guide](/setup#glorb-access-point))
 
 ## WLED Controls

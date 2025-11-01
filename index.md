@@ -14,7 +14,7 @@ title: GLORB User Guide
         <h3>📱 Mobile Apps</h3>
         <ul>
             <li><a href="https://apps.apple.com/us/app/snrgy/id6587549578">SNRGY App for iOS</a></li>
-            <li><a href="https://play.google.com/store/apps/details?id=com.snrgy.studio&pli=1">SNRGY App for Android</a> - Early release!
+            <li><a href="https://play.google.com/store/apps/details?id=com.snrgy.studio&pli=1">SNRGY App for Android</a>
                 <ul>
                     <li><a href="/info/android-app">Android App Guide</a> - Features & limitations</li>
                 </ul>
