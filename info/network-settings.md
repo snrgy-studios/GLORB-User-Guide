@@ -52,17 +52,9 @@ If your GLORB won't connect to WiFi:
 
 ## Static IP Address Configuration
 
-A static IP address is a fixed network address that doesn't change, unlike dynamic IP addresses which may change each time your GLORB connects to the network. Setting up a static IP can be beneficial for several reasons:
-
-- **Reliable Remote Access:** If you control your GLORB through home automation systems or custom scripts, a static IP ensures the device can always be found at the same address
-- **Faster Connection:** Your network doesn't need to look up the device's address each time
-- **Better Sync Performance:** Other GLORBs and apps can reliably find and communicate with your device
-- **Port Forwarding:** If you need to access your GLORB from outside your network, a static IP makes router port forwarding rules more reliable
-
-We recommend using a static IP if you:
+A static IP address is a fixed network address that doesn't change, unlike dynamic IP addresses which may change each time your GLORB connects to the network. We recommend using a static IP if you:
 - Use Home Assistant or other smart home integrations
 - Have multiple GLORBs that sync together
-- Frequently access your GLORB's web interface
 - Experience connection delays or dropouts
 
 ### Instructions

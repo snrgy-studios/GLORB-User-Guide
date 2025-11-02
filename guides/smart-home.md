@@ -9,12 +9,43 @@ title: Smart Home Integration
 
 # Smart Home Integrations
 
-> **Note:** This guide is under development. We'll be adding detailed setup instructions for each platform soon.
+> **Recommendation:** Before setting up smart home integrations, we recommend configuring a static IP address for your GLORB. This ensures reliable access and better performance with automation systems. See the [Network Settings Guide](/info/network-settings#static-ip-address-configuration) for detailed instructions.
 
 <details markdown="1" class="expandable-section">
 <summary><h2>Home Assistant</h2></summary>
 
 Coming soon...
+</details>
+
+<details markdown="1" class="expandable-section">
+<summary><h2>HomeKit</h2></summary>
+
+### Prerequisites
+
+- **Firmware Version:** Ensure your GLORB is running firmware release 0.14.4-GLORB.1.2 or later. If you need to update, see the [firmware update guide](/firmware).
+
+### GLORB Setup
+
+1. Open the SNRGY app on your mobile device
+2. Navigate to **Settings** → **WLED Controls** → **Config** → **Usermods**
+3. Scroll down to the **HomeKit** section
+4. Check the **Enable** box
+5. Press **Save**
+6. Wait for your GLORB to reboot
+
+### HomeKit Setup
+
+1. Open the **Home** app on your iOS device
+2. Tap **Add Accessory**
+3. Scan the QR code displayed below or enter the setup code manually
+4. Follow the on-screen instructions to complete the setup process
+
+> **Note:** This is not a certified HomeKit implementation. During setup, you will receive a warning about this, but you can safely press **"Add Anyway"** to proceed with the setup.
+
+<div class="homekit-image-container">
+    <img src="/assets/images/homekit/homekit.jpeg" alt="HomeKit Integration">
+</div>
+
 </details>
 
 <details markdown="1" class="expandable-section">
@@ -126,5 +157,22 @@ Coming soon...
 
 .expandable-section summary h2 {
     margin: 0;
+}
+
+.homekit-image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.homekit-image-container img {
+    width: 80%;
+    object-fit: contain;
+}
+
+@media (min-width: 768px) {
+    .homekit-image-container img {
+        width: 40%;
+    }
 }
 </style>
