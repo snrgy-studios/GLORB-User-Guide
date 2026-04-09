@@ -26,7 +26,7 @@ See our [Release Notes](/releases) for details on the latest improvements and fi
 ### Physical Issues
 Loose panels
 - Caused during shipping
-- Check <a href="#" onclick="openVideoModal(); return false;">instruction video</a> on how to reattach panels
+- See the [Repair Guide](/guides/repair#how-to-fix-a-loose-panel) for instructions on how to reattach panels
 - Inform us on our [support email](mailto:support@glorb.me)
 
 ### Electronics Issues
@@ -37,7 +37,7 @@ Faulty power supply
 
 Dead LEDs
 - Can be caused by faulty LEDs or assembly error
-- For a DIY fix to misaligned LEDs, you might be able to open the panel and push the LED back into place. See this <a href="#" onclick="openVideoModal(); return false;">panel video</a>
+- For a DIY fix to misaligned LEDs, see the [Repair Guide](/guides/repair#how-to-fix-a-loose-led) for instructions on how to open the GLORB and push the LED back into place
 - Contact us on our [support email](mailto:support@glorb.me)
 
 ## Firmware Issues
