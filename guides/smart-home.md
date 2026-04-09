@@ -65,7 +65,9 @@ Here's how to set it up:
 6. Save the configuration
 7. Restart your GLORB for changes to take effect
 
-![WLED Alexa Integration](/assets/images/wled-alexa.png){:width="80%" style="display: block; margin: 0 auto;"}
+<div class="img-center">
+    <img src="/assets/images/wled-alexa.png" alt="WLED Alexa Integration">
+</div>
 
 ### Preset Control
 
@@ -73,7 +75,9 @@ To control GLORB presets with Alexa, you can enable preset emulation in the Alex
 
 If you do want to use presets, you can manage their IDs and names in WLED Controls → Presets tab. Make sure to use simple, clear names that Alexa can understand. 
 
-![WLED Presets](/assets/images/wled-presets.png){:width="50%" style="display: block; margin: 0 auto;"}
+<div class="img-center img-narrow">
+    <img src="/assets/images/wled-presets.png" alt="WLED Presets">
+</div>
 
 ### Alexa Setup
 
@@ -92,19 +96,17 @@ Once the GLORB is configured, you'll need to add it to your Alexa app:
 
 <br>
 
-<div class="image-grid" style="display: flex; flex-direction: column; align-items: center;">
-    <div class="grid-row" style="margin-bottom: 10px; display: flex; justify-content: center;">
-        <img src="/assets/images/alexa/alexa2.png" alt="Alexa Setup Step 2" style="width: 45%; margin-right: 2%; object-fit: contain;">
-        <img src="/assets/images/alexa/alexa3.png" alt="Alexa Setup Step 3" style="width: 45%; object-fit: contain;">
-    </div>
+<div class="image-grid">
+    <img src="/assets/images/alexa/alexa2.png" alt="Alexa Setup Step 2">
+    <img src="/assets/images/alexa/alexa3.png" alt="Alexa Setup Step 3">
 </div>
 
 ### External Links
 
 For a video walkthrough of setting up WLED devices with Alexa, check out this helpful guide by Chris Maher:
 
-<div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 20px;">
-    <iframe style="position: absolute; top: 0; left: 0; width: 80%; height: 100%; left: 50%; transform: translateX(-50%);" src="https://www.youtube.com/embed/3WrfmZXny7c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-embed">
+    <iframe src="https://www.youtube.com/embed/3WrfmZXny7c" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 </details>
@@ -125,8 +127,8 @@ For more information about this integration for WLED devices, visit the [WLED Kn
    > Note: Newer versions of the Hue app do not display light IDs in the "About" section of the app anymore, to find it, the app **Hue Config Viewer** is highly recommended. It is available on the [Play Store](https://play.google.com/store/apps/details?id=com.life4hue.hueconfigviewer) and [App Store](https://apps.apple.com/app/id1145977453).
 5. Press save and reboot the GLORB
 
-<div style="display: flex; justify-content: center; margin: 20px 0;">
-    <img src="/assets/images/wled-philips-hue.png" alt="WLED Philips Hue Integration" style="width: 80%; object-fit: contain;">
+<div class="img-center">
+    <img src="/assets/images/wled-philips-hue.png" alt="WLED Philips Hue Integration">
 </div>
 
 </details>
@@ -142,37 +144,3 @@ Coming soon...
 
 Coming soon...
 </details>
-
-<style>
-.expandable-section summary {
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.expandable-section summary:hover {
-    background-color: #1a1a1a;
-}
-
-.expandable-section summary h2 {
-    margin: 0;
-}
-
-.homekit-image-container {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-.homekit-image-container img {
-    width: 80%;
-    object-fit: contain;
-}
-
-@media (min-width: 768px) {
-    .homekit-image-container img {
-        width: 40%;
-    }
-}
-</style>

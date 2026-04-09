@@ -20,7 +20,7 @@ Your GLORB connects to your network via WiFi, allowing you to control it remotel
 When you first set up your GLORB, you'll need to connect it to your WiFi network. Follow our [detailed setup guide](/setup) for step-by-step instructions, or use this quick overview:
 
 1. Power on your GLORB
-2. Use the SNRGY app to scan for your device bia Bluetooth
+2. Use the SNRGY app to scan for your device via Bluetooth
 3. Select your device and go to the Modes tab to scan for WiFi networks
 4. Select your network, input your password and wait for connection
 
@@ -47,7 +47,7 @@ If your GLORB won't connect to WiFi:
 1. **Check Network Credentials:** Ensure the WiFi name and password are correct
 2. **Signal Strength:** Move your GLORB closer to your router
 3. **Network Compatibility:** Verify your network uses 2.4GHz (GLORB doesn't support 5GHz)
-4. **Router Settings:** Check if your router blocks new devices or mutlicast traffic
+4. **Router Settings:** Check if your router blocks new devices or multicast traffic
 5. **Configure Static IP:** Configure a static IP address (see below)
 
 ## Static IP Address Configuration

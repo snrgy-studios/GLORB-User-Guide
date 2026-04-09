@@ -28,21 +28,24 @@ title: Initial Setup
     <h3>🤖 Using WLED</h3>
     <ol>
         <li>When powered on, your GLORB creates its own WiFi access point (AP)</li>
-        <li>Connect to <code>WLED-AP</code> (or <code>GLORB-AP</code>) in your WiFi list</li>
-        <ul>
-            <li>Password: <code>wled1234</code> (or <code>glorb1234</code>) if prompted</li>
-        </ul>
-        <img src="/assets/images/wled-ap.png" alt="WLED Access Point" style="width: 80%; max-width: 500px;">
-        <li>Click "WiFi Settings" in the popup that appears</li>
-        <ul>
-            <li>Go to <code>http://4.3.2.1</code> in a browser if not automatically redirected</li>
-        </ul>
-        <img src="/assets/images/wled-welcome.png" alt="WLED Welcome Screen" style="width: 80%; max-width: 500px;">
-        <li>Enter your network name (SSID) and password under "Connect to existing network". Press "Save & Connect" and go back to your home network.</li>
-        <ul>
-            <li>NOTE: Leave everything else as is, especially do not touch the WiFi sleep settings!</li>
-        </ul>
-        <img src="/assets/images/wled-wifi.png" alt="WLED WiFi Settings" style="width: 80%; max-width: 500px;">
+        <li>Connect to <code>WLED-AP</code> (or <code>GLORB-AP</code>) in your WiFi list
+            <ul>
+                <li>Password: <code>wled1234</code> (or <code>glorb1234</code>) if prompted</li>
+            </ul>
+            <div class="img-center"><img src="/assets/images/wled-ap.png" alt="WLED Access Point"></div>
+        </li>
+        <li>Click "WiFi Settings" in the popup that appears
+            <ul>
+                <li>Go to <code>http://4.3.2.1</code> in a browser if not automatically redirected</li>
+            </ul>
+            <div class="img-center"><img src="/assets/images/wled-welcome.png" alt="WLED Welcome Screen"></div>
+        </li>
+        <li>Enter your network name (SSID) and password under "Connect to existing network". Press "Save & Connect" and go back to your home network.
+            <ul>
+                <li>NOTE: Leave everything else as is, especially do not touch the WiFi sleep settings!</li>
+            </ul>
+            <div class="img-center"><img src="/assets/images/wled-wifi.png" alt="WLED WiFi Settings"></div>
+        </li>
         <li>Wait for connection (see <a href="#verifying-connection">Verifying Connection</a>)</li>
     </ol>
 </div>
@@ -54,11 +57,12 @@ title: Initial Setup
     <ol>
         <li>Restart the SNRGY app</li>
         <li>Select your device and go to Settings (⚙️)</li>
-        <li>Check for an IP address in info section</li>
-        <ul>
-            <li>IP address listed → successful connection</li>
-            <li>No IP address → retry connection process</li>
-        </ul>
+        <li>Check for an IP address in info section
+            <ul>
+                <li>IP address listed → successful connection</li>
+                <li>No IP address → retry connection process</li>
+            </ul>
+        </li>
     </ol>
 </div>
 

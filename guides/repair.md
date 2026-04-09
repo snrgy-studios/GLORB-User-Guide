@@ -16,7 +16,7 @@ You can find all videos in the full [GLORB Repair Guide Playlist](https://www.yo
 ## How to Open the GLORB
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/d5ttFVxsCUQ?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/d5ttFVxsCUQ?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP" allowfullscreen></iframe>
 </div>
 
 The GLORB consists of six rows of panels, arranged into three sections with two rows per section. Each row contains 5, 15, 20, 20, 15, and 5 individual panels, respectively. 
@@ -34,7 +34,7 @@ You can now access the LEDs or the PCB inside the GLORB!
 ## How to Close the GLORB
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/SQ_ovFNo7ZY?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/SQ_ovFNo7ZY?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP" allowfullscreen></iframe>
 </div>
 
 1. Attach each panel by gently pushing the triangular part slightly upward from the inside of the GLORB, then pressing the panel over its edge until it snaps into place. This step is much easier when you have access to the inside of the GLORB!
@@ -46,7 +46,7 @@ It can be difficult to get the panels to align perfectly once the parts are pres
 ## How to Fix a Loose Panel
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/aM3rl0UrTpw?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/aM3rl0UrTpw?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP" allowfullscreen></iframe>
 </div>
 
 This video applies to completely loose panels, but the same technique can also be used if a panel is only slightly misaligned.
@@ -59,7 +59,7 @@ This video applies to completely loose panels, but the same technique can also b
 ## How to Fix a Loose LED
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/AypiFywvs2U?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/AypiFywvs2U?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP" allowfullscreen></iframe>
 </div>
 
 1. Open the GLORB (see [How to Open the GLORB](#how-to-open-the-glorb)).

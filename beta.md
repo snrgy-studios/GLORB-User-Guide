@@ -18,7 +18,7 @@ title: Beta Releases
 - [Download APK](/releases/android-beta-release.apk)
 
 ### Installation Instructions
-1. First [connect your GLORB to WiFi](/setup#android-users) using the GLORB's access point
+1. First [connect your GLORB to WiFi](/setup#glorb-access-point) using the GLORB's access point
    - This is recommended as Bluetooth control is currently slow
 2. Enable "Install from Unknown Sources" in your Android settings
 3. Download and install the [APK file](/releases/android-beta-release.apk)

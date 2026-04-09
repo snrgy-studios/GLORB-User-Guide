@@ -121,8 +121,6 @@ a {
     background-color: var(--color-card-bg);
     border-radius: var(--radius-md);
     padding: var(--spacing-md);
-    margin-bottom: 1rem;
-    
     h3 {
         margin: 0 0 1rem;
     }
@@ -231,6 +229,81 @@ ol, ul {
     }
 }
 
+// Centered images
+.img-center {
+    text-align: center;
+    margin: var(--spacing-md) 0;
+
+    img {
+        width: 80%;
+        max-width: 500px;
+        height: auto;
+    }
+
+    &.img-narrow img {
+        max-width: 300px;
+    }
+}
+
+// Side-by-side image grid (stacks on mobile)
+.image-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin: var(--spacing-md) 0;
+
+    img {
+        width: 45%;
+        object-fit: contain;
+    }
+
+    @media (max-width: 480px) {
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing-sm);
+
+        img {
+            width: 80%;
+        }
+    }
+}
+
+// Expandable sections (details/summary)
+details.expandable-section {
+    summary {
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        padding: 10px;
+        border-radius: var(--radius-sm);
+
+        &:hover {
+            background-color: #1a1a1a;
+        }
+
+        h2 {
+            margin: 0;
+            display: inline;
+        }
+    }
+}
+
+.homekit-image-container {
+    display: flex;
+    justify-content: center;
+    margin: var(--spacing-md) 0;
+
+    img {
+        width: 80%;
+        object-fit: contain;
+    }
+
+    @media (min-width: 768px) {
+        img {
+            width: 40%;
+        }
+    }
+}
+
 // Video embeds
 .video-embed {
     position: relative;
@@ -246,6 +319,7 @@ ol, ul {
         left: 0;
         width: 100%;
         height: 100%;
+        border: 0;
         border-radius: var(--radius-md);
     }
 }
@@ -256,8 +330,8 @@ ol, ul {
         padding: 2rem 0; 
         
         .banner {
-            width: calc(100% + 64px);
-            margin: calc(-20vw) -32px calc(-20vw);
+            width: calc(100% + 2 * clamp(16px, 4vw, 20px));
+            margin: calc(-20vw) calc(-1 * clamp(16px, 4vw, 20px)) calc(-20vw);
         }
     }
 }

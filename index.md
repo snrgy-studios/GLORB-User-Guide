@@ -36,6 +36,7 @@ title: GLORB User Guide
         </ul>
     </div>
 </div>
+
 ## Quick Links
 
 <div class="quick-links">
@@ -53,7 +54,7 @@ title: GLORB User Guide
         <h3>📚 Feature Guides</h3>
         <ul>
             <li><a href="/guides/dmx">DMX Control</a> - Use your GLORB with DMX</li>
-            <li><a href="/guides/smart-home">Smart Home Integrations</a> - Home Assistant & other integrations</li>
+            <li><a href="/guides/smart-home">Smart Home Integrations</a> - Alexa, HomeKit, Philips Hue & more</li>
         </ul>
     </div>
     

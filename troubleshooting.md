@@ -49,8 +49,8 @@ title: Troubleshooting
   - This means if the GLORB restarts, it will remain off until manually switched on
   - If you are unable to save the page, change "Maximum Current" from 0 to 5000
 
-<div style="text-align: center">
-  <img src="/assets/images/wled-default-boot.png" alt="WLED Default Boot Setting" width="80%">
+<div class="img-center">
+  <img src="/assets/images/wled-default-boot.png" alt="WLED Default Boot Setting">
 </div>
 
 ### GLORB Flickers/Freezes/Crashes

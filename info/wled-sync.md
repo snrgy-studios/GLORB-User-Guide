@@ -39,8 +39,8 @@ Each device can be configured as:
   - Higher (3-5): More reliable but uses more bandwidth
   - Lower (0-2): Faster but risk of packets getting lost 
 
-<div style="text-align: center;">
-    <img src="/assets/images/sync_setup.jpeg" alt="WLED Sync Settings" style="width: 80%; max-width: 500px;">
+<div class="img-center">
+    <img src="/assets/images/sync_setup.jpeg" alt="WLED Sync Settings">
 </div>
 
 ## Troubleshooting

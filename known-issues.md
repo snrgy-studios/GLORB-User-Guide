@@ -24,21 +24,20 @@ See our [Release Notes](/releases) for details on the latest improvements and fi
 ## Hardware Issues
 
 ### Physical Issues
-Loose panels
-- Caused during shipping
-- See the [Repair Guide](/guides/repair#how-to-fix-a-loose-panel) for instructions on how to reattach panels
-- Inform us on our [support email](mailto:support@glorb.me)
+- **Loose panels**
+  - Caused during shipping
+  - See the [Repair Guide](/guides/repair#how-to-fix-a-loose-panel) for instructions on how to reattach panels
+  - Inform us on our [support email](mailto:support@glorb.me)
 
 ### Electronics Issues
-Faulty power supply
-- Could cause boot issues
-- Try another 5V/3A power supply
-- Contact us on our [support email](mailto:support@glorb.me)
-
-Dead LEDs
-- Can be caused by faulty LEDs or assembly error
-- For a DIY fix to misaligned LEDs, see the [Repair Guide](/guides/repair#how-to-fix-a-loose-led) for instructions on how to open the GLORB and push the LED back into place
-- Contact us on our [support email](mailto:support@glorb.me)
+- **Faulty power supply**
+  - Could cause boot issues
+  - Try another 5V/3A power supply
+  - Contact us on our [support email](mailto:support@glorb.me)
+- **Dead LEDs**
+  - Can be caused by faulty LEDs or assembly error
+  - For a DIY fix to misaligned LEDs, see the [Repair Guide](/guides/repair#how-to-fix-a-loose-led) for instructions on how to open the GLORB and push the LED back into place
+  - Contact us on our [support email](mailto:support@glorb.me)
 
 ## Firmware Issues
 
@@ -64,32 +63,3 @@ Dead LEDs
 Found a bug not listed here? Help us improve:
 - Join our [Discord Community](https://discord.com/invite/hnQ5V2GNjh)
 - Email [support@glorb.me](mailto:support@glorb.me)
-
-<div class="modal phone-video" id="videoModal">
-    <div class="modal-content">
-        <button class="close-modal" onclick="closeVideoModal()">×</button>
-        <video controls>
-            <source src="/assets/videos/panel-fix.mov" type="video/mp4">
-            Your browser does not support the video tag. 
-            <a href="/assets/videos/panel-fix.mov">Download the video</a>
-        </video>
-    </div>
-</div>
-
-<script>
-function openVideoModal() {
-    document.getElementById('videoModal').classList.add('active');
-}
-
-function closeVideoModal() {
-    const modal = document.getElementById('videoModal');
-    const video = modal.querySelector('video');
-    video.pause();
-    modal.classList.remove('active');
-}
-
-// Close modal when clicking outside
-document.getElementById('videoModal').addEventListener('click', function(e) {
-    if (e.target === this) closeVideoModal();
-});
-</script>

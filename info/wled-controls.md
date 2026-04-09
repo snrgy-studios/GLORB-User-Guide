@@ -43,13 +43,13 @@ Customize how your GLORB behaves:
 
 > **Note:** If you can't save changes, change "Maximum Current" from 0 to 5000 first.
 
-<div style="text-align: center">
-  <img src="/assets/images/wled-default-boot.png" alt="WLED Default Boot Setting" width="80%">
+<div class="img-center">
+  <img src="/assets/images/wled-default-boot.png" alt="WLED Default Boot Setting">
 </div>
 
 ### Sync Interfaces
 Set up external control options:
-- Create diffeent sync groups or adjust sync settings (see [WLED Sync](/info/wled-sync))
+- Create different sync groups or adjust sync settings (see [WLED Sync](/info/wled-sync))
 - Connect to smart home systems (see [Smart Home Integrations](/guides/smart-home))
 - Enable DMX control for professional lighting setups (see [DMX Control](/guides/dmx))
 
@@ -67,6 +67,6 @@ Advanced settings:
 ### Security & Updates
 Manage your device:
 - Reset to factory settings if needed (see [Factory Reset Instructions](/troubleshooting#factory-reset-instructions))
-- Update firmware manually (see [Firmware Updates](/firmware#android-users))
+- Update firmware manually (see [Firmware Updates](/firmware#web-installer))
 - Backup and restore your presets (see [Backup and Restore Presets](/troubleshooting#backup-and-restore-presets))
 

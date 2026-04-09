@@ -12,13 +12,13 @@ title: DMX Control Guide
 > **Important:** Before proceeding, make sure your GLORB is running the [latest firmware](/firmware). With the latest release, you can optionally disable the Bluetooth Control module for a smoother DMX output, since it interferes with realtime light control due to WiFi sleep requirements.
 
 ## Overview
-The GLORB is built using [WLED](https://kno.wled.ge/) firmware, which supports variuos protocols for realtime light control from computers and light interfaces. 
+The GLORB is built using [WLED](https://kno.wled.ge/) firmware, which supports various protocols for realtime light control from computers and light interfaces. 
 
 This guide will show you how to set up remote DMX control on your GLORB!
 
 ## Configuring DMX (E1.31/Art-Net)
 
-1. (iOS) Go to Settings → WLED Controls to access the WLED interface
+1. Go to Settings → WLED Controls to access the WLED interface
     - Make sure your GLORB is [connected to WiFi](/setup)
 2. (Optional) Navigate to Config → Usermods
     - Disable the Bluetooth Control module and press Save
