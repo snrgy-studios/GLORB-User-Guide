@@ -5,3 +5,4 @@ _site/
 .bundle/
 .DS_Store
 Gemfile.lock
+.ruby-version
