@@ -9,14 +9,15 @@ title: Troubleshooting
 
 # Troubleshooting Guide
 
-> The GLORB is a new product in its first production release and we are working hard to fix any issues you may encounter. This guide covers common issues and their solutions. If you need further assistance, please reach out to our support team at [support@glorb.me](mailto:support@glorb.me) - we're committed to ensuring your GLORB works perfectly and we really appreciate your help and patience in this process! 
+> This guide covers common GLORB issues and their solutions. If you need further assistance, please reach out to our support team at [support@glorb.me](mailto:support@glorb.me). We're committed to ensuring your GLORB works perfectly and we really appreciate your help and patience in this process! 
 
 ## Connection Issues
 
-### GLORB Not Found in App
-- Make sure Bluetooth is enabled
-- Try allowing location services for the app
+### GLORB Not Found in App (Bluetooth)
+- Make sure Bluetooth is enabled on your device
+- Allow location services for the app
 - Power cycle the GLORB (unplug and plug back in) and restart the app
+- Unpair any other devices that might be connected to the GLORB by switching Bluetooth on and off
 
 ### No Access Point (AP) in WiFi List
 - Power cycle the GLORB and wait for a full boot
@@ -39,19 +40,7 @@ title: Troubleshooting
 
 ### GLORB starts by itself
 
-- Try another power supply with the same specs (5V/3A)
-- Reset firmware using the [Web Installer](/firmware#web-installer) to clear potential firmware issues
-- If you have active features like sync or smart home integrations, try disabling them to isolate the cause. If this resolves the issue, please let us know at [support](mailto:support@glorb.me)
-- **If the issue persists**, you can prevent the GLORB from turning on after a restart:
-  1. Go to WLED Controls → Config → LED Preferences
-  2. Under "Defaults", uncheck "Turn LEDs on after power up/reset"
-  3. Click Save
-  - This means if the GLORB restarts, it will remain off until manually switched on
-  - If you are unable to save the page, change "Maximum Current" from 0 to 5000
-
-<div class="img-center">
-  <img src="/assets/images/wled-default-boot.png" alt="WLED Default Boot Setting">
-</div>
+- This is a [known issue](/known-issues#random-crashes-and-reboots) caused by heap memory fragmentation, which can cause the GLORB to crash and reboot. A fix is planned for the next firmware update
 
 ### GLORB Flickers/Freezes/Crashes
 - Could be due to a faulty power supply. See if you can try another one with the same specs (5V/3A)

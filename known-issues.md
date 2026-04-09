@@ -23,38 +23,25 @@ See our [Release Notes](/releases) for details on the latest improvements and fi
 
 ## Hardware Issues
 
-### Physical Issues
-- **Loose panels**
-  - Caused during shipping
-  - See the [Repair Guide](/guides/repair#how-to-fix-a-loose-panel) for instructions on how to reattach panels
-  - Inform us on our [support email](mailto:support@glorb.me)
+### Loose Panels
+- Caused during shipping
+- See the [Repair Guide](/guides/repair#how-to-fix-a-loose-panel) for instructions on how to reattach panels
+- Inform us on our [support email](mailto:support@glorb.me)
 
-### Electronics Issues
-- **Faulty power supply**
-  - Could cause boot issues
-  - Try another 5V/3A power supply
-  - Contact us on our [support email](mailto:support@glorb.me)
-- **Dead LEDs**
-  - Can be caused by faulty LEDs or assembly error
-  - For a DIY fix to misaligned LEDs, see the [Repair Guide](/guides/repair#how-to-fix-a-loose-led) for instructions on how to open the GLORB and push the LED back into place
-  - Contact us on our [support email](mailto:support@glorb.me)
+### Dead LEDs
+- Can be caused by faulty LEDs or assembly error
+- Contact us on our [support email](mailto:support@glorb.me)
 
-## Firmware Issues
+## Firmware
 
-### Animations
-- Swirl effect stops running sometimes in sound reactive mode
-  - Note! This animation is sound reactive by default. A "regular" mode is added in the [latest firmware release](/firmware).
+### Random Crashes and Reboots
+- GLORB may crash and reboot randomly or during heavy load (e.g. frequent app requests)
+- This is a known issue caused by heap memory drop and fragmentation. A fix is planned for the next firmware update
+- **Workaround**: If the reboots are disturbing, you can set the default boot behavior to start in an off state:
+  - **iOS**: Available directly in the **Settings** tab
+  - **Android**: Go to **WLED Controls** > **Config** > **LED Preferences** and disable **Turn LEDs on after power up/reboot** (see [WLED Controls](/info/wled-controls#led-preferences))
 
 ## Mobile App
-
-### SNRGY App (iOS)
-- Warranty registration and display is not fully set up yet. We will get this sorted soon.
-- App doesn't display the correct firmware version after update. If no error is shown, the update is successful.
-- Issue with auto-updating screens on state changes. 
-  - For now, restart the app if encountering issues. 
-- Issue with setting boot preset (iOS). 
-  - For now, go to WLED Controls and note the ID of the preset you want to use as boot preset. Then continue to Config → LED Preferences → "Apply preset [ID] at boot". 
-  - Set your preset ID and save the page. If this generates an error, change Maximum Current from 0 to 5000 before saving. 
 
 ### SNRGY App (Android)
 - See [Android App Guide](/info/android-app) for current features and limitations
