@@ -15,7 +15,7 @@ You can find all videos in the full [GLORB Repair Guide Playlist](https://www.yo
 
 ## How to Open the GLORB
 
-<div class="video-embed">
+<div class="video-embed-vertical">
   <iframe src="https://www.youtube.com/embed/d5ttFVxsCUQ?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP" allowfullscreen></iframe>
 </div>
 
@@ -33,7 +33,7 @@ You can now access the LEDs or the PCB inside the GLORB!
 
 ## How to Close the GLORB
 
-<div class="video-embed">
+<div class="video-embed-vertical">
   <iframe src="https://www.youtube.com/embed/SQ_ovFNo7ZY?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP" allowfullscreen></iframe>
 </div>
 
@@ -45,7 +45,7 @@ It can be difficult to get the panels to align perfectly once the parts are pres
 
 ## How to Fix a Loose Panel
 
-<div class="video-embed">
+<div class="video-embed-vertical">
   <iframe src="https://www.youtube.com/embed/aM3rl0UrTpw?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP" allowfullscreen></iframe>
 </div>
 
@@ -58,7 +58,7 @@ This video applies to completely loose panels, but the same technique can also b
 
 ## How to Fix a Loose LED
 
-<div class="video-embed">
+<div class="video-embed-vertical">
   <iframe src="https://www.youtube.com/embed/AypiFywvs2U?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP" allowfullscreen></iframe>
 </div>
 

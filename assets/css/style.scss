@@ -324,6 +324,32 @@ details.expandable-section {
     }
 }
 
+// Vertical (9:16) video embeds for mobile-format videos
+.video-embed-vertical {
+    position: relative;
+    width: 40%;
+    padding-bottom: 71.1%; // 9:16 aspect ratio (40% * 16/9)
+    height: 0;
+    overflow: hidden;
+    margin: var(--spacing-md) auto;
+    border-radius: var(--radius-md);
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        border-radius: var(--radius-md);
+    }
+
+    @media (max-width: 600px) {
+        width: 100%;
+        padding-bottom: 177.78%; // 9:16 at full width
+    }
+}
+
 // Responsive
 @media (max-width: 600px) {
     .main-content { 
