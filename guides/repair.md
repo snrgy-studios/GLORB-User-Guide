@@ -15,21 +15,27 @@ Video guides for repairing and maintaining your GLORB.
 
 You can find all videos in the full [GLORB Repair Guide Playlist](https://www.youtube.com/playlist?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP) on YouTube.
 
+## What You'll Need
+
+- A spatula or similar flat tool (avoid sharp tools or serrated knives)
+- A semi-soft surface, such as a carpeted floor
+
 ## How to Open the GLORB
 
 <div class="video-embed-vertical">
   <iframe src="https://www.youtube.com/embed/d5ttFVxsCUQ?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP" allowfullscreen></iframe>
 </div>
 
-The GLORB consists of six rows of panels, arranged into three sections with two rows per section. Each row contains 5, 15, 20, 20, 15, and 5 individual panels, respectively. 
+The GLORB consists of six rows of panels, arranged into three sections with two rows per section. The rows contain 5, 15, 20, 20, 15, and 5 panels from top to bottom.
 
 **To open the GLORB, it needs to be cracked open and gently bent upward along one of the seams between the sections.**
 
 The GLORB's parts are durable, but take care not to leave visible marks on the panel edges.
 
-1. Count two rows from the top of the GLORB (the side opposite the cable) and identify the seam that runs horizontally around the lamp.
-2. Drop the GLORB on that seam onto a semi-soft surface (a carpeted floor works well) from a height of about 20 cm / 8 inches.
-3. Once a gap appears along the chosen seam, insert a spatula or similar flat tool (avoid sharp tools or serrated knives) and gently pry it open one section at a time until the lid is fully detached.
+1. Unplug the GLORB from power.
+2. Count two rows from the top of the GLORB (the side opposite the cable) and identify the seam that runs horizontally around the lamp.
+3. Drop the GLORB onto a semi-soft surface (a carpeted floor works well) so that it lands on that seam. Start from a low height and repeat, increasing gradually up to about 20 cm / 8 inches, until the seam cracks open.
+4. Once a gap appears along the chosen seam, insert a spatula or similar flat tool (avoid sharp tools or serrated knives) and gently pry it open one section at a time until the lid is fully detached.
 
 You can now access the LEDs or the PCB inside the GLORB!
 
@@ -65,7 +71,7 @@ This video applies to completely loose panels, but the same technique can also b
 </div>
 
 1. Open the GLORB (see [How to Open the GLORB](#how-to-open-the-glorb)).
-2. Locate the loose LED inside the GLORB (it helps to turn the GLORB on while searching).
+2. Locate the loose LED inside the GLORB. It helps to briefly plug the GLORB in while searching; unplug it again before touching anything inside.
 3. Press the LED into the small white cap so that the light faces outward, then attach the cap to the hole in the triangular part.
 4. Close the GLORB (see [How to Close the GLORB](#how-to-close-the-glorb)).
 
