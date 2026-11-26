@@ -9,6 +9,8 @@ title: Repair Guide
 
 # Repair Guide
 
+> **Warranty notice:** Self-initiated repairs may void your warranty. Check in with [support@glorb.me](mailto:support@glorb.me) before opening your GLORB to keep your claim valid.
+
 Video guides for repairing and maintaining your GLORB.
 
 You can find all videos in the full [GLORB Repair Guide Playlist](https://www.youtube.com/playlist?list=PLupuQgvslKxfM4AbMAJiGlIa8E_TW1GYP) on YouTube.
