@@ -25,8 +25,8 @@ See our [Release Notes](/releases) for details on the latest improvements and fi
 
 ### Loose Panels
 - Caused during shipping
+- Inform us on our [support email](mailto:support@glorb.me) before attempting a repair, as self-initiated repairs may void your warranty
 - See the [Repair Guide](/guides/repair#how-to-fix-a-loose-panel) for instructions on how to reattach panels
-- Inform us on our [support email](mailto:support@glorb.me)
 
 ### Dead LEDs
 - Can be caused by faulty LEDs or assembly error
